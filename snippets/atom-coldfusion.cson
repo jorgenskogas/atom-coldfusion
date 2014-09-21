@@ -1,0 +1,1882 @@
+'.text.html.cfm':
+  'ImageGetExifMetaData':
+    'prefix': 'ImageGetExifMetaData'
+    'body': 'ImageGetExifMetaData(${1:"${2:name}"})'
+  'ImageGetIptcMetaData':
+    'prefix': 'ImageGetIptcMetaData'
+    'body': 'ImageGetIptcMetaData(${1:"${2:name}"})'
+  'abs':
+    'prefix': 'abs'
+    'body': 'abs(${1:${2:number}})'
+  'acos':
+    'prefix': 'acos'
+    'body': 'acos(${1:${2:number}})'
+  'addSOAPRequestHeader':
+    'prefix': 'addSOAPRequestHeader'
+    'body': 'addSOAPRequestHeader(${1:"${2:webservice}", "${3:namespace}", "${4:name}", "${5:value}", ${6:mustunderstand}})'
+  'addSOAPResponseHeader':
+    'prefix': 'addSOAPResponseHeader'
+    'body': 'addSOAPResponseHeader(${1:"${2:namespace}", "${3:name}", "${4:value}"${5:, [mustunderstand]}})'
+  'ajaxLink':
+    'prefix': 'ajaxLink'
+    'body': 'ajaxLink(${1:"${2:url}"})'
+  'ajaxOnLoad':
+    'prefix': 'ajaxOnLoad'
+    'body': 'ajaxOnLoad(${1:"${2:functionname}"})'
+  'applicationStop':
+    'prefix': 'applicationStop'
+    'body': 'applicationStop(${1:})'
+  'arrayAppend':
+    'prefix': 'arrayAppend'
+    'body': 'arrayAppend(${1:${2:array}, ${3:value}})'
+  'arrayAvg':
+    'prefix': 'arrayAvg'
+    'body': 'arrayAvg(${1:${2:array}})'
+  'arrayClear':
+    'prefix': 'arrayClear'
+    'body': 'arrayClear(${1:${2:array}})'
+  'arrayContains':
+    'prefix': 'arrayContains'
+    'body': 'arrayContains(${1:${2:array}, ${3:object}})'
+  'arrayDelete':
+    'prefix': 'arrayDelete'
+    'body': 'arrayDelete(${1:${2:array}, ${3:object}})'
+  'arrayDeleteAt':
+    'prefix': 'arrayDeleteAt'
+    'body': 'arrayDeleteAt(${1:${2:array}, ${3:position}})'
+  'arrayFind':
+    'prefix': 'arrayFind'
+    'body': 'arrayFind(${1:${2:array}, ${3:object}})'
+  'arrayFindNoCase':
+    'prefix': 'arrayFindNoCase'
+    'body': 'arrayFindNoCase(${1:${2:array}, ${3:object}})'
+  'arrayInsertAt':
+    'prefix': 'arrayInsertAt'
+    'body': 'arrayInsertAt(${1:${2:array}, ${3:position}, ${4:value}})'
+  'arrayIsDefined':
+    'prefix': 'arrayIsDefined'
+    'body': 'arrayIsDefined(${1:"${2:array}", ${3:elementIndex}})'
+  'arrayIsEmpty':
+    'prefix': 'arrayIsEmpty'
+    'body': 'arrayIsEmpty(${1:${2:array}})'
+  'arrayMax':
+    'prefix': 'arrayMax'
+    'body': 'arrayMax(${1:${2:array}})'
+  'arrayMin':
+    'prefix': 'arrayMin'
+    'body': 'arrayMin(${1:${2:array}})'
+  'arrayNew':
+    'prefix': 'arrayNew'
+    'body': 'arrayNew(${1:${2:dimension}})'
+  'arrayPrepend':
+    'prefix': 'arrayPrepend'
+    'body': 'arrayPrepend(${1:${2:array}, ${3:value}})'
+  'arrayResize':
+    'prefix': 'arrayResize'
+    'body': 'arrayResize(${1:${2:array}, ${3:size}})'
+  'arraySet':
+    'prefix': 'arraySet'
+    'body': 'arraySet(${1:${2:array}, ${3:start_pos}, ${4:end_pos}, ${5:value}})'
+  'arraySort':
+    'prefix': 'arraySort'
+    'body': 'arraySort(${1:${2:array}, "${3:sort_type}"${4:, [sort_order]}})'
+  'arraySum':
+    'prefix': 'arraySum'
+    'body': 'arraySum(${1:${2:array}})'
+  'arraySwap':
+    'prefix': 'arraySwap'
+    'body': 'arraySwap(${1:${2:array}, ${3:position1}, ${4:position2}})'
+  'arrayToList':
+    'prefix': 'arrayToList'
+    'body': 'arrayToList(${1:${2:array}${3:, [delimiter]}})'
+  'arraylen':
+    'prefix': 'arraylen'
+    'body': 'arraylen(${1:${2:array}})'
+  'asc':
+    'prefix': 'asc'
+    'body': 'asc(${1:"${2:String}"})'
+  'asin':
+    'prefix': 'asin'
+    'body': 'asin(${1:${2:number}})'
+  'atn':
+    'prefix': 'atn'
+    'body': 'atn(${1:${2:number}})'
+  'binaryDecode':
+    'prefix': 'binaryDecode'
+    'body': 'binaryDecode(${1:"${2:String}", "${3:binaryencoding}"})'
+  'binaryEncode':
+    'prefix': 'binaryEncode'
+    'body': 'binaryEncode(${1:${2:binarydata}, "${3:encoding}"})'
+  'bitAnd':
+    'prefix': 'bitAnd'
+    'body': 'bitAnd(${1:${2:number1}, ${3:number2}})'
+  'bitMaskClear':
+    'prefix': 'bitMaskClear'
+    'body': 'bitMaskClear(${1:${2:number}, ${3:start}, ${4:length}})'
+  'bitMaskRead':
+    'prefix': 'bitMaskRead'
+    'body': 'bitMaskRead(${1:${2:number}, ${3:start}, ${4:length}})'
+  'bitMaskSet':
+    'prefix': 'bitMaskSet'
+    'body': 'bitMaskSet(${1:${2:number}, ${3:mask}, ${4:start}, ${5:length}})'
+  'bitNot':
+    'prefix': 'bitNot'
+    'body': 'bitNot(${1:${2:number}})'
+  'bitOr':
+    'prefix': 'bitOr'
+    'body': 'bitOr(${1:${2:number1}, ${3:number2}})'
+  'bitShln':
+    'prefix': 'bitShln'
+    'body': 'bitShln(${1:${2:number}, ${3:count}})'
+  'bitShrn':
+    'prefix': 'bitShrn'
+    'body': 'bitShrn(${1:${2:number}, ${3:count}})'
+  'bitXor':
+    'prefix': 'bitXor'
+    'body': 'bitXor(${1:${2:number1}, ${3:number2}})'
+  'cacheGet':
+    'prefix': 'cacheGet'
+    'body': 'cacheGet(${1:"${2:id}"})'
+  'cacheGetAllIds':
+    'prefix': 'cacheGetAllIds'
+    'body': 'cacheGetAllIds(${1:})'
+  'cacheGetMetadata':
+    'prefix': 'cacheGetMetadata'
+    'body': 'cacheGetMetadata(${1:"${2:id}"})'
+  'cacheGetProperties':
+    'prefix': 'cacheGetProperties'
+    'body': 'cacheGetProperties(${1:"${2:type}"})'
+  'cachePut':
+    'prefix': 'cachePut'
+    'body': 'cachePut(${1:"${2:id}", "${3:value}"${4:, [timespan]}${5:, [idelTime]}})'
+  'cacheRemove':
+    'prefix': 'cacheRemove'
+    'body': 'cacheRemove(${1:"${2:ids}"${3:, [throwOnError]}})'
+  'cacheSetProperties':
+    'prefix': 'cacheSetProperties'
+    'body': 'cacheSetProperties(${1:${2:Param1}})'
+  'ceiling':
+    'prefix': 'ceiling'
+    'body': 'ceiling(${1:${2:number}})'
+  'cfabort':
+    'prefix': 'cfabort'
+    'body': '<cfabort ${1:${2:showerror="$3" }${4:attributecollection="$5"}} />$0'
+  'cfajaximport':
+    'prefix': 'cfajaximport'
+    'body': '<cfajaximport ${1:${2:scriptsrc="$3" }${4:csssrc="$5" }${6:tags="$7" }${8:attributecollection="$9"}} />$0'
+  'cfajaxproxy':
+    'prefix': 'cfajaxproxy'
+    'body': '<cfajaxproxy ${1:${2:cfc="$3" }${4:jsclassname="$5" }${6:bind="$7" }${8:onerror="$9" }${10:onsuccess="$11"}} />$0'
+  'cfapplet':
+    'prefix': 'cfapplet'
+    'body': '<cfapplet ${1:${2:appletsource="$3" }${4:name="$5" }${6:height="$7" }${8:width="$9" }${10:vspace="$11" }${12:hspace="$13" }${14:align="$15" }${16:notsupported="$17"}} />$0'
+  'cfapplication':
+    'prefix': 'cfapplication'
+    'body': '<cfapplication ${1:${2:name="$3" }${4:loginstorage="$5" }${6:clientmanagement="$7" }${8:clientstorage="$9" }${10:setclientcookies="$11" }${12:sessionmanagement="$13" }${14:sessiontimeout="$15" }${16:applicationtimeout="$17" }${18:setdomaincookies="$19" }${20:scriptprotect="$21" }${22:securejsonprefix="$23" }${24:securejson="$25" }${26:serverSideFormValidation="$27"}} />$0'
+  'cfargument':
+    'prefix': 'cfargument'
+    'body': '<cfargument ${1:${2:name="$3" }${4:type="$5" }${6:required="$7" }${8:default="$9" }${10:displayname="$11" }${12:hint="$13"}} />$0'
+  'cfassociate':
+    'prefix': 'cfassociate'
+    'body': '<cfassociate ${1:${2:basetag="$3" }${4:datacollection="$5"}} />$0'
+  'cfbreak':
+    'prefix': 'cfbreak'
+    'body': '<cfbreak ${1:} />$0'
+  'cfcache':
+    'prefix': 'cfcache'
+    'body': '<cfcache ${1:${2:action="$3" }${4:directory="$5" }${6:timespan="$7" }${8:expireurl="$9" }${10:username="$11" }${12:password="$13" }${14:port="$15" }${16:protocol="$17" }${18:value="$19" }${20:metadata="$21" }${22:stripwhitespace="$23" }${24:throwonerror="$25" }${26:id="$27" }${28:key="$29" }${30:usecache="$31" }${32:dependson="$33" }${34:idletime="$35" }${36:cachedirectory="$37" }${38:name="$39"}}>\n\t$0\n</cfcache>'
+  'cfcalendar':
+    'prefix': 'cfcalendar'
+    'body': '<cfcalendar ${1:${2:name="$3" }${4:height="$5" }${6:width="$7" }${8:selecteddate="$9" }${10:startrange="$11" }${12:endrange="$13" }${14:disabled="$15" }${16:mask="$17" }${18:firstdayofweek="$19" }${20:daynames="$21" }${22:monthnames="$23" }${24:enabled="$25" }${26:visible="$27" }${28:tooltip="$29" }${30:style="$31" }${32:onchange="$33" }${34:onblur="$35" }${36:onfocus="$37"}} />$0'
+  'cfcase':
+    'prefix': 'cfcase'
+    'body': '<cfcase ${1:${2:value="$3" }${4:delimiters="$5"}}>\n\t$0\n</cfcase>'
+  'cfcatch':
+    'prefix': 'cfcatch'
+    'body': '<cfcatch ${1:${2:type="$3"}}>\n\t$0\n</cfcatch>'
+  'cfchart':
+    'prefix': 'cfchart'
+    'body': '<cfchart ${1:${2:format="$3" }${4:chartheight="$5" }${6:chartwidth="$7" }${8:scalefrom="$9" }${10:scaleto="$11" }${12:showxgridlines="$13" }${14:showygridlines="$15" }${16:gridlines="$17" }${18:seriesplacement="$19" }${20:foregroundcolor="$21" }${22:backgroundcolor="$23" }${24:showborder="$25" }${26:databackgroundcolor="$27" }${28:font="$29" }${30:fontsize="$31" }${32:fontitalic="$33" }${34:fontbold="$35" }${36:labelformat="$37" }${38:xaxistitle="$39" }${40:yaxistitle="$41" }${42:xaxistype="$43" }${44:yaxistype="$45" }${46:sortxaxis="$47" }${48:show3d="$49" }${50:xoffset="$51" }${52:yoffset="$53" }${54:showlegend="$55" }${56:tipstyle="$57" }${58:tipbgcolor="$59" }${60:showmarkers="$61" }${62:markersize="$63" }${64:pieslicestyle="$65" }${66:URL="$67" }${68:name="$69" }${70:style="$71" }${72:title="$73"}}>\n\t$0\n</cfchart>'
+  'cfchartdata':
+    'prefix': 'cfchartdata'
+    'body': '<cfchartdata ${1:${2:item="$3" }${4:value="$5"}} />$0'
+  'cfchartseries':
+    'prefix': 'cfchartseries'
+    'body': '<cfchartseries ${1:${2:type="$3" }${4:query="$5" }${6:itemcolumn="$7" }${8:valuecolumn="$9" }${10:serieslabel="$11" }${12:seriescolor="$13" }${14:paintstyle="$15" }${16:markerstyle="$17" }${18:colorlist="$19" }${20:datalabelstyle="$21"}} />$0'
+  'cfcol':
+    'prefix': 'cfcol'
+    'body': '<cfcol ${1:${2:header="$3" }${4:width="$5" }${6:align="$7" }${8:text="$9"}} />$0'
+  'cfcollection':
+    'prefix': 'cfcollection'
+    'body': '<cfcollection ${1:${2:action="$3" }${4:collection="$5" }${6:path="$7" }${8:language="$9" }${10:name="$11" }${12:categories="$13" }${14:engine="$15"}} />$0'
+  'cfcomponent':
+    'prefix': 'cfcomponent'
+    'body': '<cfcomponent ${1:${2:extends="$3" }${4:initmethod="$5" }${6:implements="$7" }${8:output="$9" }${10:displayname="$11" }${12:hint="$13" }${14:style="$15" }${16:namespace="$17" }${18:serviceportname="$19" }${20:porttypename="$21" }${22:bindingname="$23" }${24:wsdlfile="$25" }${26:serviceaddress="$27" }${28:persistent="$29" }${30:entityname="$31" }${32:table="$33" }${34:schema="$35" }${36:catalog="$37" }${38:dynamicinsert="$39" }${40:dynamicupdate="$41" }${42:readonly="$43" }${44:selectbeforeupdate="$45" }${46:batchsize="$47" }${48:optimisticlock="$49" }${50:lazy="$51" }${52:rowid="$53" }${54:discriminatorColumn="$55" }${56:discriminatorValue="$57" }${58:joinColumn="$59" }${60:embedded="$61" }${62:cacheUse="$63" }${64:cacheName="$65" }${66:saveMapping="$67" }${68:accessors="$69" }${70:serializable="$71" }${72:attribute="$73"}}>\n\t$0\n</cfcomponent>'
+  'cfcontent':
+    'prefix': 'cfcontent'
+    'body': '<cfcontent ${1:${2:type="$3" }${4:deletefile="$5" }${6:file="$7" }${8:variable="$9" }${10:reset="$11"}} />$0'
+  'cfcontinue':
+    'prefix': 'cfcontinue'
+    'body': '<cfcontinue ${1:}>\n\t$0\n</cfcontinue>'
+  'cfcookie':
+    'prefix': 'cfcookie'
+    'body': '<cfcookie ${1:${2:name="$3" }${4:value="$5" }${6:expires="$7" }${8:secure="$9" }${10:path="$11" }${12:domain="$13" }${14:httpOnly="$15"}} />$0'
+  'cfdbinfo':
+    'prefix': 'cfdbinfo'
+    'body': '<cfdbinfo ${1:${2:type="$3" }${4:datasource="$5" }${6:name="$7" }${8:dbname="$9" }${10:username="$11" }${12:password="$13" }${14:pattern="$15" }${16:table="$17"}} />$0'
+  'cfdefaultcase':
+    'prefix': 'cfdefaultcase'
+    'body': '<cfdefaultcase ${1:}>\n\t$0\n</cfdefaultcase>'
+  'cfdirectory':
+    'prefix': 'cfdirectory'
+    'body': '<cfdirectory ${1:${2:action="$3" }${4:directory="$5" }${6:name="$7" }${8:filter="$9" }${10:mode="$11" }${12:sort="$13" }${14:newdirectory="$15" }${16:recurse="$17" }${18:type="$19" }${20:listinfo="$21"}} />$0'
+  'cfdiv':
+    'prefix': 'cfdiv'
+    'body': '<cfdiv ${1:${2:id="$3" }${4:onBindError="$5" }${6:bind="$7" }${8:tagName="$9" }${10:bindonload="$11"}} />$0'
+  'cfdocument':
+    'prefix': 'cfdocument'
+    'body': '<cfdocument ${1:${2:format="$3" }${4:filename="$5" }${6:localurl="$7" }${8:overwrite="$9" }${10:name="$11" }${12:pagetype="$13" }${14:pageheight="$15" }${16:pagewidth="$17" }${18:orientation="$19" }${20:margintop="$21" }${22:marginbottom="$23" }${24:marginleft="$25" }${26:marginright="$27" }${28:unit="$29" }${30:encryption="$31" }${32:ownerpassword="$33" }${34:userpassword="$35" }${36:permissions="$37" }${38:fontembed="$39" }${40:backgroundvisible="$41" }${42:scale="$43" }${44:authpassword="$45" }${46:authuser="$47" }${48:bookmark="$49" }${50:localurl="$51" }${52:mimetype="$53" }${54:proxypassword="$55" }${56:proxyuser="$57" }${58:saveasname="$59" }${60:src="$61" }${62:srcfile="$63" }${64:useragent="$65" }${66:proxyhost="$67" }${68:proxyport="$69" }${70:tagged="$71" }${72:pdfa="$73" }${74:formFields="$75" }${76:formsType="$77" }${78:permissionsPassword="$79" }${80:openPassword="$81"}}>\n\t$0\n</cfdocument>'
+  'cfdocumentitem':
+    'prefix': 'cfdocumentitem'
+    'body': '<cfdocumentitem ${1:${2:type="$3" }${4:evalAtPrint="$5"}}>\n\t$0\n</cfdocumentitem>'
+  'cfdocumentsection':
+    'prefix': 'cfdocumentsection'
+    'body': '<cfdocumentsection ${1:${2:margintop="$3" }${4:marginbottom="$5" }${6:marginleft="$7" }${8:marginright="$9" }${10:authpassword="$11" }${12:authuser="$13" }${14:mimetype="$15" }${16:name="$17" }${18:src="$19" }${20:srcfile="$21" }${22:useragent="$23"}}>\n\t$0\n</cfdocumentsection>'
+  'cfdump':
+    'prefix': 'cfdump'
+    'body': '<cfdump ${1:${2:var="$3" }${4:expand="$5" }${6:format="$7" }${8:hide="$9" }${10:keys="$11" }${12:label="$13" }${14:metainfo="$15" }${16:output="$17" }${18:show="$19" }${20:showUDfs="$21" }${22:top="$23" }${24:abort="$25"}} />$0'
+  'cfelse':
+    'prefix': 'cfelse'
+    'body': '<cfelse ${1:} />$0'
+  'cfelseif':
+    'prefix': 'cfelseif'
+    'body': '<cfelseif ${1:} />$0'
+  'cferror':
+    'prefix': 'cferror'
+    'body': '<cferror ${1:${2:type="$3" }${4:template="$5" }${6:mailto="$7" }${8:exception="$9"}} />$0'
+  'cfexchangecalendar':
+    'prefix': 'cfexchangecalendar'
+    'body': '<cfexchangecalendar ${1:${2:action="$3" }${4:attachmentpath="$5" }${6:connection="$7" }${8:event="$9" }${10:generateUniquefilenames="$11" }${12:message="$13" }${14:name="$15" }${16:notify="$17" }${18:responseType="$19" }${20:result="$21" }${22:uid="$23"}} />$0'
+  'cfexchangeconnection':
+    'prefix': 'cfexchangeconnection'
+    'body': '<cfexchangeconnection ${1:${2:action="$3" }${4:connection="$5" }${6:mailboxName="$7" }${8:password="$9" }${10:port="$11" }${12:protocol="$13" }${14:proxyHost="$15" }${16:proxyPort="$17" }${18:server="$19" }${20:username="$21" }${22:folder="$23" }${24:recurse="$25" }${26:name="$27" }${28:exchangeServerLanguage="$29" }${30:formBasedAuthentication="$31"}} />$0'
+  'cfexchangecontact':
+    'prefix': 'cfexchangecontact'
+    'body': '<cfexchangecontact ${1:${2:action="$3" }${4:attachmentPath="$5" }${6:connection="$7" }${8:contact="$9" }${10:generateUniqueFilenames="$11" }${12:name="$13" }${14:result="$15" }${16:uid="$17"}} />$0'
+  'cfexchangefilter':
+    'prefix': 'cfexchangefilter'
+    'body': '<cfexchangefilter ${1:${2:name="$3" }${4:from="$5" }${6:to="$7" }${8:value="$9"}} />$0'
+  'cfexchangemail':
+    'prefix': 'cfexchangemail'
+    'body': '<cfexchangemail ${1:${2:action="$3" }${4:attachmentPath="$5" }${6:connection="$7" }${8:folder="$9" }${10:generateUniqueFilenames="$11" }${12:mailUID="$13" }${14:meetingUID="$15" }${16:message="$17" }${18:name="$19" }${20:UID="$21" }${22:destinationfolder="$23"}} />$0'
+  'cfexchangetask':
+    'prefix': 'cfexchangetask'
+    'body': '<cfexchangetask ${1:${2:action="$3" }${4:attachmentPath="$5" }${6:connection="$7" }${8:task="$9" }${10:name="$11" }${12:results="$13" }${14:uid="$15" }${16:result="$17"}} />$0'
+  'cfexecute':
+    'prefix': 'cfexecute'
+    'body': '<cfexecute ${1:${2:name="$3" }${4:arguments="$5" }${6:outputfile="$7" }${8:variable="$9" }${10:timeout="$11" }${12:errorVariable="$13" }${14:errorFile="$15"}}>\n\t$0\n</cfexecute>'
+  'cfexit':
+    'prefix': 'cfexit'
+    'body': '<cfexit ${1:${2:method="$3"}} />$0'
+  'cffeed':
+    'prefix': 'cffeed'
+    'body': '<cffeed ${1:${2:action="$3" }${4:columnMap="$5" }${6:enclosureDir="$7" }${8:ignoreEnclosureError="$9" }${10:name="$11" }${12:outputFile="$13" }${14:overwrite="$15" }${16:overwriteEnclosure="$17" }${18:properties="$19" }${20:query="$21" }${22:source="$23" }${24:timeout="$25" }${26:proxyServer="$27" }${28:xmlvar="$29" }${30:proxyPort="$31" }${32:proxyPassword="$33" }${34:userAgent="$35" }${36:proxyUser="$37" }${38:escapeChars="$39"}} />$0'
+  'cffile':
+    'prefix': 'cffile'
+    'body': '<cffile ${1:${2:action="$3" }${4:file="$5" }${6:mode="$7" }${8:output="$9" }${10:addnewline="$11" }${12:attributes="$13" }${14:charset="$15" }${16:source="$17" }${18:destination="$19" }${20:variable="$21" }${22:filefield="$23" }${24:nameconflict="$25" }${26:accept="$27" }${28:result="$29" }${30:fixnewline="$31"}} />$0'
+  'cffileupload':
+    'prefix': 'cffileupload'
+    'body': '<cffileupload ${1:${2:url="$3" }${4:width="$5" }${6:title="$7" }${8:extensionfilter="$9" }${10:uploadbuttonlabel="$11" }${12:progressbar="$13" }${14:height="$15" }${16:maxUploadSize="$17" }${18:maxFileSelect="$19" }${20:style="$21" }${22:bgcolor="$23" }${24:addButtonLabel="$25" }${26:name="$27" }${28:oncomplete="$29" }${30:onerror="$31" }${32:clearButtonLabel="$33" }${34:deleteButtonLabel="$35" }${36:align="$37" }${38:wmode="$39" }${40:stopOnError="$41" }${42:hideUploadButton="$43" }${44:onUploadComplete="$45"}}>\n\t$0\n</cffileupload>'
+  'cffinally':
+    'prefix': 'cffinally'
+    'body': '<cffinally ${1:}>\n\t$0\n</cffinally>'
+  'cfflush':
+    'prefix': 'cfflush'
+    'body': '<cfflush ${1:${2:interval="$3"}} />$0'
+  'cfform':
+    'prefix': 'cfform'
+    'body': '<cfform ${1:${2:name="$3" }${4:action="$5" }${6:method="$7" }${8:format="$9" }${10:skin="$11" }${12:preservedata="$13" }${14:onload="$15" }${16:onsubmit="$17" }${18:codebase="$19" }${20:archive="$21" }${22:height="$23" }${24:width="$25" }${26:onerror="$27" }${28:wmode="$29" }${30:accessible="$31" }${32:preloader="$33" }${34:timeout="$35" }${36:scriptsrc="$37" }${38:style="$39" }${40:onreset="$41" }${42:id="$43" }${44:target="$45" }${46:passthrough="$47" }${48:onsuccess="$49"}}>\n\t$0\n</cfform>'
+  'cfformgroup':
+    'prefix': 'cfformgroup'
+    'body': '<cfformgroup ${1:${2:type="$3" }${4:query="$5" }${6:startrow="$7" }${8:maxrows="$9" }${10:label="$11" }${12:id="$13" }${14:style="$15" }${16:selectedindex="$17" }${18:width="$19" }${20:height="$21" }${22:enabled="$23" }${24:visible="$25" }${26:onchange="$27" }${28:tooltip="$29"}}>\n\t$0\n</cfformgroup>'
+  'cfformitem':
+    'prefix': 'cfformitem'
+    'body': '<cfformitem ${1:${2:type="$3" }${4:style="$5" }${6:width="$7" }${8:height="$9" }${10:enabled="$11" }${12:visible="$13" }${14:tooltip="$15" }${16:bind="$17"}}>\n\t$0\n</cfformitem>'
+  'cfftp':
+    'prefix': 'cfftp'
+    'body': '<cfftp ${1:${2:action="$3" }${4:username="$5" }${6:password="$7" }${8:server="$9" }${10:timeout="$11" }${12:port="$13" }${14:connection="$15" }${16:proxyserver="$17" }${18:retrycount="$19" }${20:stoponerror="$21" }${22:passive="$23" }${24:transfermode="$25" }${26:failifexists="$27" }${28:directory="$29" }${30:localfile="$31" }${32:remotefile="$33" }${34:item="$35" }${36:existing="$37" }${38:new="$39" }${40:name="$41" }${42:result="$43" }${44:attributes="$45" }${46:passphrase="$47" }${48:buffersize="$49" }${50:secure="$51" }${52:asciiextensionlist="$53" }${54:key="$55" }${56:actionparam="$57" }${58:fingerprint="$59"}} />$0'
+  'cffunction':
+    'prefix': 'cffunction'
+    'body': '<cffunction ${1:${2:name="$3" }${4:returntype="$5" }${6:roles="$7" }${8:access="$9" }${10:output="$11" }${12:displayname="$13" }${14:hint="$15" }${16:description="$17" }${18:returnformat="$19" }${20:securejson="$21" }${22:verifyclient="$23"}}>\n\t$0\n</cffunction>'
+  'cfgrid':
+    'prefix': 'cfgrid'
+    'body': '<cfgrid ${1:${2:name="$3" }${4:bind="$5" }${6:pagesize="$7" }${8:striperowcolor="$9" }${10:preservepageonsort="$11" }${12:striperows="$13" }${14:format="$15" }${16:height="$17" }${18:width="$19" }${20:autowidth="$21" }${22:vspace="$23" }${24:hspace="$25" }${26:align="$27" }${28:query="$29" }${30:insert="$31" }${32:delete="$33" }${34:sort="$35" }${36:font="$37" }${38:fontsize="$39" }${40:italic="$41" }${42:bold="$43" }${44:textcolor="$45" }${46:href="$47" }${48:hrefkey="$49" }${50:target="$51" }${52:appendkey="$53" }${54:highlighthref="$55" }${56:onvalidate="$57" }${58:onerror="$59" }${60:griddataalign="$61" }${62:gridlines="$63" }${64:rowheight="$65" }${66:rowheaders="$67" }${68:rowheaderalign="$69" }${70:rowheaderfont="$71" }${72:rowheaderfontsize="$73" }${74:rowheaderitalic="$75" }${76:rowheaderbold="$77" }${78:rowheadertextcolor="$79" }${80:colheaders="$81" }${82:colheaderalign="$83" }${84:colheaderfont="$85" }${86:colheaderfontsize="$87" }${88:colheaderitalic="$89" }${90:colheaderbold="$91" }${92:colheadertextcolor="$93" }${94:bgcolor="$95" }${96:selectcolor="$97" }${98:selectmode="$99" }${100:maxrows="$101" }${102:notsupported="$103" }${104:picturebar="$105" }${106:insertbutton="$107" }${108:deletebutton="$109" }${110:sortascendingbutton="$111" }${112:sortdescendingbutton="$113" }${114:style="$115" }${116:enabled="$117" }${118:visible="$119" }${120:tooltip="$121" }${122:onchange="$123" }${124:bindonload="$125" }${126:selectonload="$127" }${128:onblur="$129" }${130:onfocus="$131" }${132:collapsible="$133" }${134:groupfield="$135" }${136:onLoad="$137"}}>\n\t$0\n</cfgrid>'
+  'cfgridcolumn':
+    'prefix': 'cfgridcolumn'
+    'body': '<cfgridcolumn ${1:${2:name="$3" }${4:header="$5" }${6:width="$7" }${8:font="$9" }${10:fontsize="$11" }${12:italic="$13" }${14:bold="$15" }${16:bgcolor="$17" }${18:textcolor="$19" }${20:href="$21" }${22:hrefkey="$23" }${24:target="$25" }${26:select="$27" }${28:display="$29" }${30:type="$31" }${32:headerfont="$33" }${34:headerfontsize="$35" }${36:headeritalic="$37" }${38:headerbold="$39" }${40:headertextcolor="$41" }${42:dataalign="$43" }${44:headeralign="$45" }${46:numberformat="$47" }${48:values="$49" }${50:valuesdisplay="$51" }${52:valuesdelimiter="$53" }${54:mask="$55" }${56:headerIcon="$57"}} />$0'
+  'cfgridrow':
+    'prefix': 'cfgridrow'
+    'body': '<cfgridrow ${1:${2:data="$3" }${4:delimiter="$5"}} />$0'
+  'cfgridupdate':
+    'prefix': 'cfgridupdate'
+    'body': '<cfgridupdate ${1:${2:grid="$3" }${4:datasource="$5" }${6:tablename="$7" }${8:username="$9" }${10:password="$11" }${12:tableowner="$13" }${14:tablequalifier="$15" }${16:keyonly="$17"}} />$0'
+  'cfheader':
+    'prefix': 'cfheader'
+    'body': '<cfheader ${1:${2:name="$3" }${4:value="$5" }${6:charset="$7" }${8:statuscode="$9" }${10:statustext="$11"}} />$0'
+  'cfhtmlhead':
+    'prefix': 'cfhtmlhead'
+    'body': '<cfhtmlhead ${1:${2:text="$3"}} />$0'
+  'cfhttp':
+    'prefix': 'cfhttp'
+    'body': '<cfhttp ${1:${2:url="$3" }${4:port="$5" }${6:method="$7" }${8:proxyserver="$9" }${10:proxyport="$11" }${12:proxyuser="$13" }${14:proxypassword="$15" }${16:username="$17" }${18:password="$19" }${20:useragent="$21" }${22:charset="$23" }${24:resolveurl="$25" }${26:throwonerror="$27" }${28:redirect="$29" }${30:timeout="$31" }${32:getasbinary="$33" }${34:result="$35" }${36:delimiter="$37" }${38:name="$39" }${40:columns="$41" }${42:firstrowasheaders="$43" }${44:textqualifier="$45" }${46:file="$47" }${48:multipart="$49" }${50:clientcertpassword="$51" }${52:path="$53" }${54:clientcert="$55" }${56:compression="$57"}}>\n\t$0\n</cfhttp>'
+  'cfhttpparam':
+    'prefix': 'cfhttpparam'
+    'body': '<cfhttpparam ${1:${2:type="$3" }${4:name="$5" }${6:value="$7" }${8:file="$9" }${10:encoded="$11" }${12:mimetype="$13"}} />$0'
+  'cfif':
+    'prefix': 'cfif'
+    'body': '<cfif ${1:}>\n\t$0\n</cfif>'
+  'cfimage':
+    'prefix': 'cfimage'
+    'body': '<cfimage ${1:${2:action="$3" }${4:angle="$5" }${6:color="$7" }${8:destination="$9" }${10:difficulty="$11" }${12:fontSize="$13" }${14:format="$15" }${16:height="$17" }${18:isBase64="$19" }${20:name="$21" }${22:overwrite="$23" }${24:quality="$25" }${26:source="$27" }${28:structName="$29" }${30:text="$31" }${32:thickness="$33" }${34:width="$35" }${36:fonts="$37"}} />$0'
+  'cfimap':
+    'prefix': 'cfimap'
+    'body': '<cfimap ${1:${2:password="$3" }${4:secure="$5" }${6:action="$7" }${8:timeout="$9" }${10:messageNumber="$11" }${12:connection="$13" }${14:newFolder="$15" }${16:uid="$17" }${18:folder="$19" }${20:port="$21" }${22:stoponerror="$23" }${24:generateUniqueFileNames="$25" }${26:maxrows="$27" }${28:username="$29" }${30:startRow="$31" }${32:attachmentpath="$33" }${34:server="$35" }${36:name="$37" }${38:recurse="$39"}} />$0'
+  'cfimport':
+    'prefix': 'cfimport'
+    'body': '<cfimport ${1:${2:taglib="$3" }${4:prefix="$5" }${6:path="$7"}} />$0'
+  'cfinclude':
+    'prefix': 'cfinclude'
+    'body': '<cfinclude ${1:${2:template="$3"}} />$0'
+  'cfindex':
+    'prefix': 'cfindex'
+    'body': '<cfindex ${1:${2:collection="$3" }${4:action="$5" }${6:type="$7" }${8:title="$9" }${10:key="$11" }${12:body="$13" }${14:custom1="$15" }${16:custom2="$17" }${18:custom3="$19" }${20:custom4="$21" }${22:category="$23" }${24:categoryTree="$25" }${26:urlpath="$27" }${28:extensions="$29" }${30:query="$31" }${32:recurse="$33" }${34:language="$35" }${36:status="$37" }${38:prefix="$39"}} />$0'
+  'cfinput':
+    'prefix': 'cfinput'
+    'body': '<cfinput ${1:${2:name="$3" }${4:autosuggest="$5" }${6:autoSuggestBindDelay="$7" }${8:autoSuggestMinLength="$9" }${10:bindAttribute="$11" }${12:bindonload="$13" }${14:id="$15" }${16:type="$17" }${18:label="$19" }${20:style="$21" }${22:class="$23" }${24:required="$25" }${26:mask="$27" }${28:validate="$29" }${30:validateat="$31" }${32:message="$33" }${34:range="$35" }${36:maxlength="$37" }${38:pattern="$39" }${40:onvalidate="$41" }${42:onerror="$43" }${44:size="$45" }${46:value="$47" }${48:bind="$49" }${50:checked="$51" }${52:disabled="$53" }${54:src="$55" }${56:onkeyup="$57" }${58:onkeydown="$59" }${60:onmouseup="$61" }${62:onmousedown="$63" }${64:onchange="$65" }${66:onclick="$67" }${68:daynames="$69" }${70:firstdayofweek="$71" }${72:monthnames="$73" }${74:enabled="$75" }${76:visible="$77" }${78:tooltip="$79" }${80:width="$81" }${82:height="$83" }${84:passthrough="$85" }${86:delimiter="$87" }${88:maxresultsdisplayed="$89" }${90:onbinderror="$91" }${92:showautosuggestloadingicon="$93" }${94:sourcefortooltip="$95" }${96:typeahead="$97" }${98:matchContains="$99"}} />$0'
+  'cfinsert':
+    'prefix': 'cfinsert'
+    'body': '<cfinsert ${1:${2:datasource="$3" }${4:tablename="$5" }${6:tableowner="$7" }${8:tablequalifier="$9" }${10:username="$11" }${12:password="$13" }${14:formfields="$15" }${16:providerdsn="$17" }${18:dbtype="$19" }${20:dbname="$21" }${22:dbserver="$23" }${24:provider="$25"}} />$0'
+  'cfinterface':
+    'prefix': 'cfinterface'
+    'body': '<cfinterface ${1:${2:displayName="$3" }${4:extends="$5" }${6:hint="$7"}}>\n\t$0\n</cfinterface>'
+  'cfinvoke':
+    'prefix': 'cfinvoke'
+    'body': '<cfinvoke ${1:${2:component="$3" }${4:method="$5" }${6:returnvariable="$7" }${8:argumentcollection="$9" }${10:username="$11" }${12:password="$13" }${14:webservice="$15" }${16:timeout="$17" }${18:proxyserver="$19" }${20:proxyport="$21" }${22:proxyuser="$23" }${24:proxypassword="$25" }${26:serviceport="$27" }${28:refreshwsdl="$29" }${30:wsdl2javaargs="$31"}}>\n\t$0\n</cfinvoke>'
+  'cfinvokeargument':
+    'prefix': 'cfinvokeargument'
+    'body': '<cfinvokeargument ${1:${2:name="$3" }${4:value="$5" }${6:omit="$7"}} />$0'
+  'cflayout':
+    'prefix': 'cflayout'
+    'body': '<cflayout ${1:${2:type="$3" }${4:align="$5" }${6:name="$7" }${8:padding="$9" }${10:style="$11" }${12:tabheight="$13" }${14:tabposition="$15" }${16:titlecollapse="$17" }${18:activeontop="$19" }${20:fillheight="$21" }${22:fitToWindow="$23" }${24:height="$25" }${26:width="$27" }${28:buttonStyle="$29"}}>\n\t$0\n</cflayout>'
+  'cflayoutarea':
+    'prefix': 'cflayoutarea'
+    'body': '<cflayoutarea ${1:${2:position="$3" }${4:align="$5" }${6:closable="$7" }${8:collapsible="$9" }${10:disabled="$11" }${12:initCollapsed="$13" }${14:initHide="$15" }${16:maxSize="$17" }${18:minSize="$19" }${20:name="$21" }${22:onBindError="$23" }${24:overflow="$25" }${26:selected="$27" }${28:size="$29" }${30:source="$31" }${32:splitter="$33" }${34:style="$35" }${36:title="$37" }${38:refreshonactivate="$39" }${40:titleIcon="$41" }${42:bindOnLoad="$43"}}>\n\t$0\n</cflayoutarea>'
+  'cfldap':
+    'prefix': 'cfldap'
+    'body': '<cfldap ${1:${2:server="$3" }${4:port="$5" }${6:username="$7" }${8:password="$9" }${10:action="$11" }${12:name="$13" }${14:timeout="$15" }${16:maxrows="$17" }${18:start="$19" }${20:scope="$21" }${22:attributes="$23" }${24:returnasbinary="$25" }${26:filter="$27" }${28:sort="$29" }${30:sortcontrol="$31" }${32:dn="$33" }${34:startrow="$35" }${36:modifytype="$37" }${38:rebind="$39" }${40:referral="$41" }${42:secure="$43" }${44:separator="$45" }${46:delimiter="$47"}} />$0'
+  'cflocation':
+    'prefix': 'cflocation'
+    'body': '<cflocation ${1:${2:url="$3" }${4:addtoken="$5" }${6:statuscode="$7"}} />$0'
+  'cflock':
+    'prefix': 'cflock'
+    'body': '<cflock ${1:${2:timeout="$3" }${4:scope="$5" }${6:name="$7" }${8:throwontimeout="$9" }${10:type="$11"}}>\n\t$0\n</cflock>'
+  'cflog':
+    'prefix': 'cflog'
+    'body': '<cflog ${1:${2:text="$3" }${4:log="$5" }${6:file="$7" }${8:type="$9" }${10:application="$11"}} />$0'
+  'cflogin':
+    'prefix': 'cflogin'
+    'body': '<cflogin ${1:${2:idletimeout="$3" }${4:applicationtoken="$5" }${6:cookiedomain="$7"}}>\n\t$0\n</cflogin>'
+  'cfloginuser':
+    'prefix': 'cfloginuser'
+    'body': '<cfloginuser ${1:${2:name="$3" }${4:password="$5" }${6:roles="$7"}} />$0'
+  'cflogout':
+    'prefix': 'cflogout'
+    'body': '<cflogout ${1:} />$0'
+  'cfloop':
+    'prefix': 'cfloop'
+    'body': '<cfloop ${1:${2:index="$3" }${4:to="$5" }${6:from="$7" }${8:step="$9" }${10:condition="$11" }${12:query="$13" }${14:startrow="$15" }${16:endrow="$17" }${18:list="$19" }${20:delimiters="$21" }${22:collection="$23" }${24:item="$25" }${26:array="$27" }${28:characters="$29" }${30:file="$31"}}>\n\t$0\n</cfloop>'
+  'cfmail':
+    'prefix': 'cfmail'
+    'body': '<cfmail ${1:${2:to="$3" }${4:from="$5" }${6:cc="$7" }${8:bcc="$9" }${10:subject="$11" }${12:replyto="$13" }${14:failto="$15" }${16:username="$17" }${18:password="$19" }${20:wraptext="$21" }${22:charset="$23" }${24:type="$25" }${26:mimeattach="$27" }${28:query="$29" }${30:group="$31" }${32:groupcasesensitive="$33" }${34:startrow="$35" }${36:maxrows="$37" }${38:server="$39" }${40:port="$41" }${42:mailerid="$43" }${44:timeout="$45" }${46:spoolenable="$47" }${48:debug="$49" }${50:priority="$51" }${52:usessl="$53" }${54:usetls="$55" }${56:remove="$57" }${58:keystore="$59" }${60:keypassword="$61" }${62:sign="$63" }${64:keyalias="$65" }${66:keystorepassword="$67"}}>\n\t$0\n</cfmail>'
+  'cfmailparam':
+    'prefix': 'cfmailparam'
+    'body': '<cfmailparam ${1:${2:file="$3" }${4:type="$5" }${6:name="$7" }${8:value="$9" }${10:contentID="$11" }${12:disposition="$13" }${14:content="$15" }${16:remove="$17"}} />$0'
+  'cfmailpart':
+    'prefix': 'cfmailpart'
+    'body': '<cfmailpart ${1:${2:type="$3" }${4:wraptext="$5" }${6:charset="$7"}}>\n\t$0\n</cfmailpart>'
+  'cfmap':
+    'prefix': 'cfmap'
+    'body': '<cfmap ${1:${2:width="$3" }${4:centerlongitude="$5" }${6:centeraddress="$7" }${8:continuouszoom="$9" }${10:type="$11" }${12:title="$13" }${14:zoomcontrol="$15" }${16:tip="$17" }${18:overview="$19" }${20:hideborder="$21" }${22:doubleclickzoom="$23" }${24:key="$25" }${26:collapsible="$27" }${28:zoomlevel="$29" }${30:height="$31" }${32:centerlatitude="$33" }${34:onload="$35" }${36:typecontrol="$37" }${38:displayscale="$39" }${40:name="$41" }${42:scrollwheelzoom="$43" }${44:markerBind="$45" }${46:showMarkerWindow="$47" }${48:markerWindowContent="$49" }${50:markerIcon="$51" }${52:markerColor="$53" }${54:onError="$55" }${56:showCenterMarker="$57" }${58:showScale="$59"}}>\n\t$0\n</cfmap>'
+  'cfmapitem':
+    'prefix': 'cfmapitem'
+    'body': '<cfmapitem ${1:${2:longitude="$3" }${4:address="$5" }${6:tip="$7" }${8:latitude="$9" }${10:name="$11" }${12:showMarkerWindow="$13" }${14:markerWindowContent="$15" }${16:markerIcon="$17" }${18:markerColor="$19"}}>\n\t$0\n</cfmapitem>'
+  'cfmediaplayer':
+    'prefix': 'cfmediaplayer'
+    'body': '<cfmediaplayer ${1:${2:width="$3" }${4:height="$5" }${6:fullscreencontrol="$7" }${8:hideBorder="$9" }${10:controlbar="$11" }${12:align="$13" }${14:onload="$15" }${16:bgcolor="$17" }${18:source="$19" }${20:name="$21" }${22:quality="$23" }${24:hideTitle="$25" }${26:oncomplete="$27" }${28:onstart="$29" }${30:wmode="$31" }${32:autoPlay="$33" }${34:style="$35"}}>\n\t$0\n</cfmediaplayer>'
+  'cfmenu':
+    'prefix': 'cfmenu'
+    'body': '<cfmenu ${1:${2:bgcolor="$3" }${4:childstyle="$5" }${6:font="$7" }${8:fontcolor="$9" }${10:fontsize="$11" }${12:menustyle="$13" }${14:name="$15" }${16:selectedfontcolor="$17" }${18:selecteditemcolor="$19" }${20:type="$21" }${22:width="$23"}}>\n\t$0\n</cfmenu>'
+  'cfmenuitem':
+    'prefix': 'cfmenuitem'
+    'body': '<cfmenuitem ${1:${2:display="$3" }${4:childstyle="$5" }${6:divider="$7" }${8:href="$9" }${10:image="$11" }${12:menustyle="$13" }${14:name="$15" }${16:style="$17" }${18:target="$19"}}>\n\t$0\n</cfmenuitem>'
+  'cfmessagebox':
+    'prefix': 'cfmessagebox'
+    'body': '<cfmessagebox ${1:${2:labelcancel="$3" }${4:callbackHandler="$5" }${6:labelok="$7" }${8:title="$9" }${10:type="$11" }${12:message="$13" }${14:labelno="$15" }${16:labelyes="$17" }${18:multiline="$19" }${20:name="$21" }${22:bodyStyle="$23" }${24:buttonType="$25" }${26:icon="$27" }${28:modal="$29" }${30:width="$31" }${32:x="$33" }${34:y="$35"}}>\n\t$0\n</cfmessagebox>'
+  'cfmodule':
+    'prefix': 'cfmodule'
+    'body': '<cfmodule ${1:${2:template="$3" }${4:name="$5" }${6:attributecollection="$7"}}>\n\t$0\n</cfmodule>'
+  'cfntauthenticate':
+    'prefix': 'cfntauthenticate'
+    'body': '<cfntauthenticate ${1:${2:username="$3" }${4:password="$5" }${6:domain="$7" }${8:result="$9" }${10:listgroups="$11" }${12:throwonerror="$13"}} />$0'
+  'cfobject':
+    'prefix': 'cfobject'
+    'body': '<cfobject ${1:${2:type="$3" }${4:action="$5" }${6:class="$7" }${8:name="$9" }${10:context="$11" }${12:server="$13" }${14:component="$15" }${16:locale="$17" }${18:webservice="$19" }${20:password="$21" }${22:secure="$23" }${24:protocol="$25" }${26:proxyserver="$27" }${28:refreshwsdl="$29" }${30:wsportname="$31" }${32:wsdl2javaargs="$33" }${34:proxyport="$35" }${36:port="$37" }${38:proxypassword="$39" }${40:assembly="$41" }${42:username="$43" }${44:proxyuser="$45"}} />$0'
+  'cfobjectcache':
+    'prefix': 'cfobjectcache'
+    'body': '<cfobjectcache ${1:${2:action="$3"}} />$0'
+  'cfoutput':
+    'prefix': 'cfoutput'
+    'body': '<cfoutput ${1:${2:query="$3" }${4:group="$5" }${6:groupcasesensitive="$7" }${8:startrow="$9" }${10:maxrows="$11"}}>\n\t$0\n</cfoutput>'
+  'cfparam':
+    'prefix': 'cfparam'
+    'body': '<cfparam ${1:${2:name="$3" }${4:type="$5" }${6:default="$7" }${8:max="$9" }${10:min="$11" }${12:pattern="$13"}} />$0'
+  'cfpdf':
+    'prefix': 'cfpdf'
+    'body': '<cfpdf ${1:${2:action="$3" }${4:ascending="$5" }${6:copyfrom="$7" }${8:destination="$9" }${10:directory="$11" }${12:encrypt="$13" }${14:flatten="$15" }${16:foreground="$17" }${18:image="$19" }${20:info="$21" }${22:isBase64="$23" }${24:keepbookmark="$25" }${26:name="$27" }${28:newOwnerPassword="$29" }${30:newUserPassword="$31" }${32:opacity="$33" }${34:order="$35" }${36:overwrite="$37" }${38:password="$39" }${40:permissions="$41" }${42:position="$43" }${44:rotation="$45" }${46:showonprint="$47" }${48:source="$49" }${50:type="$51" }${52:version="$53" }${54:transparent="$55" }${56:resolution="$57" }${58:stoponerror="$59" }${60:inputfiles="$61" }${62:scale="$63" }${64:imageprefix="$65" }${66:outputfiles="$67" }${68:pages="$69" }${70:ddxfile="$71" }${72:saveoption="$73" }${74:format="$75" }${76:hires="$77" }${78:maxScale="$79" }${80:maxBreadth="$81" }${82:maxLength="$83" }${84:compressTIFFs="$85" }${86:overridepage="$87" }${88:package="$89" }${90:hScale="$91" }${92:vScale="$93" }${94:noBookMarks="$95" }${96:noAttachments="$97" }${98:noComments="$99" }${100:noJavaScripts="$101" }${102:noLinks="$103" }${104:noMetadata="$105" }${106:noThumbnails="$107" }${108:noFonts="$109" }${110:algo="$111" }${112:topMargin="$113" }${114:leftMargin="$115" }${116:rightMargin="$117" }${118:bottomMargin="$119" }${120:numberFormat="$121" }${122:align="$123" }${124:honourspaces="$125" }${126:addQuads="$127" }${128:text="$129" }${130:useStructure="$131" }${132:jpgdpi="$133" }${134:encodeAll="$135"}} />$0'
+  'cfpdfform':
+    'prefix': 'cfpdfform'
+    'body': '<cfpdfform ${1:${2:action="$3" }${4:datafile="$5" }${6:destination="$7" }${8:overwrite="$9" }${10:overwritedata="$11" }${12:result="$13" }${14:source="$15" }${16:xmldata="$17" }${18:name="$19" }${20:fdf="$21" }${22:fdfData="$23"}}>\n\t$0\n</cfpdfform>'
+  'cfpdfformparam':
+    'prefix': 'cfpdfformparam'
+    'body': '<cfpdfformparam ${1:${2:index="$3" }${4:name="$5" }${6:value="$7"}} />$0'
+  'cfpdfparam':
+    'prefix': 'cfpdfparam'
+    'body': '<cfpdfparam ${1:${2:password="$3" }${4:source="$5" }${6:pages="$7"}}>\n\t$0\n</cfpdfparam>'
+  'cfpdfsubform':
+    'prefix': 'cfpdfsubform'
+    'body': '<cfpdfsubform ${1:${2:index="$3" }${4:name="$5"}}>\n\t$0\n</cfpdfsubform>'
+  'cfpod':
+    'prefix': 'cfpod'
+    'body': '<cfpod ${1:${2:bodyStyle="$3" }${4:headerStyle="$5" }${6:height="$7" }${8:name="$9" }${10:onBindError="$11" }${12:overflow="$13" }${14:source="$15" }${16:title="$17" }${18:width="$19"}}>\n\t$0\n</cfpod>'
+  'cfpop':
+    'prefix': 'cfpop'
+    'body': '<cfpop ${1:${2:server="$3" }${4:port="$5" }${6:username="$7" }${8:password="$9" }${10:action="$11" }${12:name="$13" }${14:messagenumber="$15" }${16:uid="$17" }${18:attachmentpath="$19" }${20:timeout="$21" }${22:maxrows="$23" }${24:startrow="$25" }${26:generateUniqueFileNames="$27"}} />$0'
+  'cfpresentation':
+    'prefix': 'cfpresentation'
+    'body': '<cfpresentation ${1:${2:backgroundColor="$3" }${4:control="$5" }${6:controlLocation="$7" }${8:directory="$9" }${10:glowColor="$11" }${12:initialTab="$13" }${14:lightColor="$15" }${16:overwrite="$17" }${18:primaryColor="$19" }${20:shadowColor="$21" }${22:showNotes="$23" }${24:showOutline="$25" }${26:showSearch="$27" }${28:textColor="$29" }${30:title="$31" }${32:authpassword="$33" }${34:authuser="$35" }${36:autoplay="$37" }${38:loop="$39" }${40:proxypassword="$41" }${42:proxyuser="$43" }${44:proxyhost="$45" }${46:proxyport="$47" }${48:useragent="$49" }${50:destination="$51" }${52:format="$53"}}>\n\t$0\n</cfpresentation>'
+  'cfpresentationslide':
+    'prefix': 'cfpresentationslide'
+    'body': '<cfpresentationslide ${1:${2:audio="$3" }${4:bottomMargin="$5" }${6:duration="$7" }${8:notes="$9" }${10:presenter="$11" }${12:rightMargin="$13" }${14:scale="$15" }${16:src="$17" }${18:title="$19" }${20:topMargin="$21" }${22:video="$23" }${24:advance="$25" }${26:authpassword="$27" }${28:authuser="$29" }${30:marginbottom="$31" }${32:marginleft="$33" }${34:marginright="$35" }${36:margintop="$37" }${38:useragent="$39" }${40:slides="$41"}}>\n\t$0\n</cfpresentationslide>'
+  'cfpresenter':
+    'prefix': 'cfpresenter'
+    'body': '<cfpresenter ${1:${2:biography="$3" }${4:email="$5" }${6:image="$7" }${8:name="$9" }${10:logo="$11" }${12:title="$13"}} />$0'
+  'cfprint':
+    'prefix': 'cfprint'
+    'body': '<cfprint ${1:${2:source="$3" }${4:attributestruct="$5" }${6:copies="$7" }${8:jobname="$9" }${10:orientation="$11" }${12:pages="$13" }${14:password="$15" }${16:papersize="$17" }${18:quality="$19" }${20:color="$21" }${22:coverpage="$23" }${24:type="$25" }${26:printer="$27" }${28:sides="$29" }${30:paper="$31" }${32:fidelity="$33"}} />$0'
+  'cfprocessingdirective':
+    'prefix': 'cfprocessingdirective'
+    'body': '<cfprocessingdirective ${1:${2:suppressWhitespace="$3" }${4:pageEncoding="$5"}}>\n\t$0\n</cfprocessingdirective>'
+  'cfprocparam':
+    'prefix': 'cfprocparam'
+    'body': '<cfprocparam ${1:${2:type="$3" }${4:variable="$5" }${6:value="$7" }${8:cfsqltype="$9" }${10:maxlength="$11" }${12:scale="$13" }${14:null="$15"}} />$0'
+  'cfprocresult':
+    'prefix': 'cfprocresult'
+    'body': '<cfprocresult ${1:${2:name="$3" }${4:resultset="$5" }${6:maxrows="$7"}} />$0'
+  'cfprogressbar':
+    'prefix': 'cfprogressbar'
+    'body': '<cfprogressbar ${1:${2:width="$3" }${4:height="$5" }${6:bind="$7" }${8:oncomplete="$9" }${10:name="$11" }${12:duration="$13" }${14:interval="$15" }${16:style="$17" }${18:autoDisplay="$19" }${20:onError="$21"}}>\n\t$0\n</cfprogressbar>'
+  'cfproperty':
+    'prefix': 'cfproperty'
+    'body': '<cfproperty ${1:${2:name="$3" }${4:type="$5" }${6:required="$7" }${8:default="$9" }${10:displayname="$11" }${12:hint="$13" }${14:fieldtype="$15" }${16:ormType="$17" }${18:column="$19" }${20:generator="$21" }${22:sequence="$23" }${24:selectkey="$25" }${26:params="$27" }${28:length="$29" }${30:precision="$31" }${32:index="$33" }${34:setter="$35" }${36:getter="$37" }${38:source="$39" }${40:elementcolumn="$41" }${42:elementtype="$43" }${44:structkeytype="$45" }${46:structkeycolumn="$47" }${48:inversejoincolumn="$49" }${50:linkschema="$51" }${52:linkcatalog="$53" }${54:linktable="$55" }${56:missingRowIgnored="$57" }${58:inverse="$59" }${60:orderby="$61" }${62:fkcolumn="$63" }${64:fetch="$65" }${66:cascade="$67" }${68:constrained="$69" }${70:unique="$71" }${72:uniquekey="$73" }${74:notnull="$75" }${76:update="$77" }${78:insert="$79" }${80:generated="$81" }${82:formula="$83" }${84:lazy="$85" }${86:optimisticLock="$87" }${88:scale="$89" }${90:mappedby="$91" }${92:cfc="$93" }${94:joinColumn="$95" }${96:validate="$97" }${98:validateParams="$99" }${100:cacheUse="$101" }${102:sqlType="$103" }${104:dbDefault="$105" }${106:where="$107" }${108:persistent="$109" }${110:unSavedValue="$111" }${112:serializable="$113" }${114:singularname="$115" }${116:remotingFetch="$117" }${118:table="$119"}} />$0'
+  'cfquery':
+    'prefix': 'cfquery'
+    'body': '<cfquery ${1:${2:name="$3" }${4:datasource="$5" }${6:dbtype="$7" }${8:username="$9" }${10:password="$11" }${12:maxrows="$13" }${14:blockfactor="$15" }${16:timeout="$17" }${18:cachedafter="$19" }${20:cachedwithin="$21" }${22:debug="$23" }${24:result="$25"}}>\n\t$0\n</cfquery>'
+  'cfqueryparam':
+    'prefix': 'cfqueryparam'
+    'body': '<cfqueryparam ${1:${2:value="$3" }${4:cfsqltype="$5" }${6:maxlength="$7" }${8:scale="$9" }${10:null="$11" }${12:list="$13" }${14:separator="$15"}} />$0'
+  'cfregistry':
+    'prefix': 'cfregistry'
+    'body': '<cfregistry ${1:${2:action="$3" }${4:branch="$5" }${6:entry="$7" }${8:variable="$9" }${10:type="$11" }${12:sort="$13" }${14:directory="$15" }${16:name="$17" }${18:mode="$19" }${20:newdirectory="$21" }${22:value="$23" }${24:recurse="$25" }${26:registryversion="$27"}} />$0'
+  'cfreport':
+    'prefix': 'cfreport'
+    'body': '<cfreport ${1:${2:template="$3" }${4:format="$5" }${6:name="$7" }${8:filename="$9" }${10:query="$11" }${12:overwrite="$13" }${14:encryption="$15" }${16:ownerpassword="$17" }${18:userpassword="$19" }${20:permissions="$21" }${22:datasource="$23" }${24:type="$25" }${26:timeout="$27" }${28:report="$29" }${30:orderby="$31" }${32:username="$33" }${34:password="$35" }${36:formula="$37" }${38:resourceTimespan="$39" }${40:style="$41"}}>\n\t$0\n</cfreport>'
+  'cfreportparam':
+    'prefix': 'cfreportparam'
+    'body': '<cfreportparam ${1:${2:name="$3" }${4:value="$5" }${6:chart="$7" }${8:query="$9" }${10:series="$11" }${12:style="$13" }${14:subreport="$15"}} />$0'
+  'cfrethrow':
+    'prefix': 'cfrethrow'
+    'body': '<cfrethrow ${1:} />$0'
+  'cfreturn':
+    'prefix': 'cfreturn'
+    'body': '<cfreturn ${1:} />$0'
+  'cfsavecontent':
+    'prefix': 'cfsavecontent'
+    'body': '<cfsavecontent ${1:${2:variable="$3"}}>\n\t$0\n</cfsavecontent>'
+  'cfschedule':
+    'prefix': 'cfschedule'
+    'body': '<cfschedule ${1:${2:action="$3" }${4:task="$5" }${6:operation="$7" }${8:file="$9" }${10:path="$11" }${12:startdate="$13" }${14:starttime="$15" }${16:URL="$17" }${18:port="$19" }${20:publish="$21" }${22:endDate="$23" }${24:endTime="$25" }${26:interval="$27" }${28:requesttimeout="$29" }${30:username="$31" }${32:password="$33" }${34:proxyserver="$35" }${36:proxyport="$37" }${38:proxyuser="$39" }${40:proxypassword="$41" }${42:resolveurl="$43"}} />$0'
+  'cfscript':
+    'prefix': 'cfscript'
+    'body': '<cfscript ${1:}>\n\t$0\n</cfscript>'
+  'cfsearch':
+    'prefix': 'cfsearch'
+    'body': '<cfsearch ${1:${2:name="$3" }${4:collection="$5" }${6:category="$7" }${8:categorytree="$9" }${10:status="$11" }${12:type="$13" }${14:criteria="$15" }${16:maxrows="$17" }${18:startrow="$19" }${20:suggestions="$21" }${22:contextPassages="$23" }${24:contextBytes="$25" }${26:contextHighlightBegin="$27" }${28:contextHighlightEnd="$29" }${30:previousCriteria="$31" }${32:language="$33"}} />$0'
+  'cfselect':
+    'prefix': 'cfselect'
+    'body': '<cfselect ${1:${2:name="$3" }${4:id="$5" }${6:bind="$7" }${8:bindAttribute="$9" }${10:bindOnLoad="$11" }${12:editable="$13" }${14:label="$15" }${16:style="$17" }${18:sourceForTooltip="$19" }${20:size="$21" }${22:required="$23" }${24:message="$25" }${26:onerror="$27" }${28:multiple="$29" }${30:query="$31" }${32:value="$33" }${34:display="$35" }${36:group="$37" }${38:queryposition="$39" }${40:selected="$41" }${42:onkeyup="$43" }${44:onkeydown="$45" }${46:onmouseup="$47" }${48:onmousedown="$49" }${50:onchange="$51" }${52:onclick="$53" }${54:enabled="$55" }${56:visible="$57" }${58:tooltip="$59" }${60:height="$61" }${62:width="$63" }${64:passthrough="$65" }${66:onbinderror="$67"}}>\n\t$0\n</cfselect>'
+  'cfset':
+    'prefix': 'cfset'
+    'body': '<cfset ${1:} />$0'
+  'cfsetting':
+    'prefix': 'cfsetting'
+    'body': '<cfsetting ${1:${2:enablecfoutputonly="$3" }${4:showdebugoutput="$5" }${6:requesttimeout="$7"}} />$0'
+  'cfsharepoint':
+    'prefix': 'cfsharepoint'
+    'body': '<cfsharepoint ${1:${2:password="$3" }${4:action="$5" }${6:login="$7" }${8:params="$9" }${10:domain="$11" }${12:username="$13" }${14:name="$15" }${16:wsdl="$17"}}>\n\t$0\n</cfsharepoint>'
+  'cfsilent':
+    'prefix': 'cfsilent'
+    'body': '<cfsilent ${1:}>\n\t$0\n</cfsilent>'
+  'cfslider':
+    'prefix': 'cfslider'
+    'body': '<cfslider ${1:${2:name="$3" }${4:label="$5" }${6:range="$7" }${8:scale="$9" }${10:value="$11" }${12:onvalidate="$13" }${14:message="$15" }${16:height="$17" }${18:width="$19" }${20:vspace="$21" }${22:hspace="$23" }${24:align="$25" }${26:lookandfeel="$27" }${28:vertical="$29" }${30:bgcolor="$31" }${32:textcolor="$33" }${34:font="$35" }${36:fontsize="$37" }${38:italic="$39" }${40:bold="$41" }${42:notsupported="$43" }${44:clickToChange="$45" }${46:max="$47" }${48:onChange="$49" }${50:min="$51" }${52:onDrag="$53" }${54:onError="$55" }${56:increment="$57" }${58:tip="$59" }${60:format="$61"}} />$0'
+  'cfspreadsheet':
+    'prefix': 'cfspreadsheet'
+    'body': '<cfspreadsheet ${1:${2:password="$3" }${4:sheetname="$5" }${6:action="$7" }${8:rows="$9" }${10:overwrite="$11" }${12:src="$13" }${14:filename="$15" }${16:columns="$17" }${18:columnnames="$19" }${20:query="$21" }${22:sheet="$23" }${24:headerrow="$25" }${26:name="$27" }${28:format="$29"}}>\n\t$0\n</cfspreadsheet>'
+  'cfsprydataset':
+    'prefix': 'cfsprydataset'
+    'body': '<cfsprydataset ${1:${2:bind="$3" }${4:name="$5" }${6:onbinderror="$7" }${8:options="$9" }${10:type="$11" }${12:xpath="$13"}} />$0'
+  'cfstoredproc':
+    'prefix': 'cfstoredproc'
+    'body': '<cfstoredproc ${1:${2:procedure="$3" }${4:datasource="$5" }${6:username="$7" }${8:password="$9" }${10:blockfactor="$11" }${12:debug="$13" }${14:returncode="$15" }${16:result="$17"}}>\n\t$0\n</cfstoredproc>'
+  'cfswitch':
+    'prefix': 'cfswitch'
+    'body': '<cfswitch ${1:${2:expression="$3"}}>\n\t$0\n</cfswitch>'
+  'cftable':
+    'prefix': 'cftable'
+    'body': '<cftable ${1:${2:query="$3" }${4:maxrows="$5" }${6:colSpacing="$7" }${8:headerLines="$9" }${10:htmltable="$11" }${12:border="$13" }${14:colheaders="$15" }${16:startrow="$17"}}>\n\t$0\n</cftable>'
+  'cftextarea':
+    'prefix': 'cftextarea'
+    'body': '<cftextarea ${1:${2:name="$3" }${4:label="$5" }${6:style="$7" }${8:required="$9" }${10:html="$11" }${12:validate="$13" }${14:validateat="$15" }${16:message="$17" }${18:range="$19" }${20:maxlength="$21" }${22:pattern="$23" }${24:onvalidate="$25" }${26:onerror="$27" }${28:disabled="$29" }${30:value="$31" }${32:bind="$33" }${34:onkeyup="$35" }${36:onkeydown="$37" }${38:onmouseup="$39" }${40:onmousedown="$41" }${42:onchange="$43" }${44:onclick="$45" }${46:enabled="$47" }${48:visible="$49" }${50:tooltip="$51" }${52:height="$53" }${54:width="$55" }${56:basepath="$57" }${58:bindattribute="$59" }${60:bindonload="$61" }${62:fontformats="$63" }${64:fontnames="$65" }${66:fontsizes="$67" }${68:onbinderror="$69" }${70:richtext="$71" }${72:skin="$73" }${74:wrap="$75" }${76:sourcefortooltip="$77" }${78:stylesxml="$79" }${80:templatesxml="$81" }${82:toolbar="$83" }${84:toolbaronfocus="$85" }${86:secureUpload="$87"}}>\n\t$0\n</cftextarea>'
+  'cftextinput':
+    'prefix': 'cftextinput'
+    'body': '<cftextinput ${1:${2:name="$3" }${4:value="$5" }${6:required="$7" }${8:range="$9" }${10:validate="$11" }${12:onvalidate="$13" }${14:pattern="$15" }${16:message="$17" }${18:onerror="$19" }${20:size="$21" }${22:font="$23" }${24:fontsize="$25" }${26:italic="$27" }${28:bold="$29" }${30:height="$31" }${32:width="$33" }${34:vspace="$35" }${36:hspace="$37" }${38:align="$39" }${40:bgcolor="$41" }${42:textcolor="$43" }${44:maxlength="$45" }${46:notsupported="$47" }${48:label="$49"}} />$0'
+  'cfthread':
+    'prefix': 'cfthread'
+    'body': '<cfthread ${1:${2:action="$3" }${4:duration="$5" }${6:name="$7" }${8:priority="$9" }${10:timeout="$11"}}>\n\t$0\n</cfthread>'
+  'cfthrow':
+    'prefix': 'cfthrow'
+    'body': '<cfthrow ${1:${2:type="$3" }${4:message="$5" }${6:detail="$7" }${8:errorcode="$9" }${10:extendedinfo="$11" }${12:object="$13"}} />$0'
+  'cftimer':
+    'prefix': 'cftimer'
+    'body': '<cftimer ${1:${2:label="$3" }${4:type="$5"}}>\n\t$0\n</cftimer>'
+  'cftooltip':
+    'prefix': 'cftooltip'
+    'body': '<cftooltip ${1:${2:preventoverlap="$3" }${4:autodismissdelay="$5" }${6:hidedelay="$7" }${8:showdelay="$9" }${10:sourcefortooltip="$11" }${12:tooltip="$13" }${14:style="$15"}}>\n\t$0\n</cftooltip>'
+  'cftrace':
+    'prefix': 'cftrace'
+    'body': '<cftrace ${1:${2:abort="$3" }${4:category="$5" }${6:inline="$7" }${8:text="$9" }${10:type="$11" }${12:var="$13"}} />$0'
+  'cftransaction':
+    'prefix': 'cftransaction'
+    'body': '<cftransaction ${1:${2:action="$3" }${4:isolation="$5" }${6:savepoint="$7" }${8:nested="$9"}}>\n\t$0\n</cftransaction>'
+  'cftree':
+    'prefix': 'cftree'
+    'body': '<cftree ${1:${2:name="$3" }${4:format="$5" }${6:required="$7" }${8:delimiter="$9" }${10:completepath="$11" }${12:appendkey="$13" }${14:highlighthref="$15" }${16:onvalidate="$17" }${18:message="$19" }${20:onerror="$21" }${22:lookandfeel="$23" }${24:font="$25" }${26:fontsize="$27" }${28:italic="$29" }${30:bold="$31" }${32:height="$33" }${34:width="$35" }${36:vspace="$37" }${38:hspace="$39" }${40:align="$41" }${42:border="$43" }${44:hscroll="$45" }${46:vscroll="$47" }${48:style="$49" }${50:enabled="$51" }${52:visible="$53" }${54:tooltip="$55" }${56:onchange="$57" }${58:onblur="$59" }${60:onfocus="$61" }${62:notsupported="$63" }${64:cache="$65"}}>\n\t$0\n</cftree>'
+  'cftreeitem':
+    'prefix': 'cftreeitem'
+    'body': '<cftreeitem ${1:${2:bind="$3" }${4:value="$5" }${6:display="$7" }${8:parent="$9" }${10:img="$11" }${12:imgopen="$13" }${14:href="$15" }${16:target="$17" }${18:query="$19" }${20:queryAsRoot="$21" }${22:expand="$23" }${24:onbinderror="$25"}} />$0'
+  'cftry':
+    'prefix': 'cftry'
+    'body': '<cftry ${1:}>\n\t$0\n</cftry>'
+  'cfupdate':
+    'prefix': 'cfupdate'
+    'body': '<cfupdate ${1:${2:datasource="$3" }${4:tablename="$5" }${6:tableowner="$7" }${8:tablequalifier="$9" }${10:username="$11" }${12:password="$13" }${14:formfields="$15"}} />$0'
+  'cfwddx':
+    'prefix': 'cfwddx'
+    'body': '<cfwddx ${1:${2:action="$3" }${4:input="$5" }${6:output="$7" }${8:toplevelvariable="$9" }${10:usetimezoneinfo="$11" }${12:validate="$13"}} />$0'
+  'cfwindow':
+    'prefix': 'cfwindow'
+    'body': '<cfwindow ${1:${2:bodyStyle="$3" }${4:center="$5" }${6:closable="$7" }${8:draggable="$9" }${10:headerStyle="$11" }${12:height="$13" }${14:initShow="$15" }${16:minHeight="$17" }${18:minWidth="$19" }${20:modal="$21" }${22:name="$23" }${24:onBindError="$25" }${26:resizable="$27" }${28:source="$29" }${30:title="$31" }${32:width="$33" }${34:x="$35" }${36:y="$37" }${38:refreshonshow="$39" }${40:destroyOnClose="$41"}}>\n\t$0\n</cfwindow>'
+  'cfxml':
+    'prefix': 'cfxml'
+    'body': '<cfxml ${1:${2:variable="$3" }${4:casesensitive="$5"}}>\n\t$0\n</cfxml>'
+  'cfzip':
+    'prefix': 'cfzip'
+    'body': '<cfzip ${1:${2:action="$3" }${4:charset="$5" }${6:destination="$7" }${8:entrypath="$9" }${10:file="$11" }${12:filter="$13" }${14:name="$15" }${16:overwrite="$17" }${18:prefix="$19" }${20:recurse="$21" }${22:showDirectory="$23" }${24:source="$25" }${26:storePath="$27" }${28:variable="$29"}} />$0'
+  'cfzipparam':
+    'prefix': 'cfzipparam'
+    'body': '<cfzipparam ${1:${2:charset="$3" }${4:content="$5" }${6:entrypath="$7" }${8:filter="$9" }${10:prefix="$11" }${12:recurse="$13" }${14:source="$15"}} />$0'
+  'charsetDecode':
+    'prefix': 'charsetDecode'
+    'body': 'charsetDecode(${1:"${2:String}", "${3:encoding}"})'
+  'charsetEncode':
+    'prefix': 'charsetEncode'
+    'body': 'charsetEncode(${1:${2:binaryobject}, "${3:encoding}"})'
+  'chr':
+    'prefix': 'chr'
+    'body': 'chr(${1:${2:number}})'
+  'cjustify':
+    'prefix': 'cjustify'
+    'body': 'cjustify(${1:"${2:String}", ${3:length}})'
+  'compare':
+    'prefix': 'compare'
+    'body': 'compare(${1:"${2:string1}", "${3:string2}"})'
+  'compareNoCase':
+    'prefix': 'compareNoCase'
+    'body': 'compareNoCase(${1:"${2:string1}", "${3:string2}"})'
+  'cos':
+    'prefix': 'cos'
+    'body': 'cos(${1:${2:number}})'
+  'createDate':
+    'prefix': 'createDate'
+    'body': 'createDate(${1:${2:year}, ${3:month}, ${4:day}})'
+  'createDateTime':
+    'prefix': 'createDateTime'
+    'body': 'createDateTime(${1:${2:year}, ${3:month}, ${4:day}, ${5:hour}, ${6:minute}, ${7:second}})'
+  'createODBCDate':
+    'prefix': 'createODBCDate'
+    'body': 'createODBCDate(${1:${2:date}})'
+  'createODBCDateTime':
+    'prefix': 'createODBCDateTime'
+    'body': 'createODBCDateTime(${1:${2:date}})'
+  'createODBCTime':
+    'prefix': 'createODBCTime'
+    'body': 'createODBCTime(${1:${2:date}})'
+  'createObject':
+    'prefix': 'createObject'
+    'body': 'createObject(${1:"${2:type}", "${3:context}", "${4:class}", "${5:locale}", "${6:servername}", "${7:component_name}", "${8:urltowsdl}"${9:, [portname]}})'
+  'createTime':
+    'prefix': 'createTime'
+    'body': 'createTime(${1:${2:hour}, ${3:minute}, ${4:second}})'
+  'createTimespan':
+    'prefix': 'createTimespan'
+    'body': 'createTimespan(${1:${2:days}, ${3:hours}, ${4:minutes}, ${5:seconds}})'
+  'createUUID':
+    'prefix': 'createUUID'
+    'body': 'createUUID(${1:})'
+  'dateAdd':
+    'prefix': 'dateAdd'
+    'body': 'dateAdd(${1:"${2:datepart}", ${3:number}, ${4:date}})'
+  'dateCompare':
+    'prefix': 'dateCompare'
+    'body': 'dateCompare(${1:${2:date1}, ${3:date2}${4:, [datePart]}})'
+  'dateConvert':
+    'prefix': 'dateConvert'
+    'body': 'dateConvert(${1:"${2:type}", ${3:date}})'
+  'dateDiff':
+    'prefix': 'dateDiff'
+    'body': 'dateDiff(${1:"${2:datepart}", ${3:date1}, ${4:date2}})'
+  'dateFormat':
+    'prefix': 'dateFormat'
+    'body': 'dateFormat(${1:${2:date}${3:, [mask]}})'
+  'datePart':
+    'prefix': 'datePart'
+    'body': 'datePart(${1:"${2:datepart}", ${3:date}})'
+  'day':
+    'prefix': 'day'
+    'body': 'day(${1:${2:date}})'
+  'dayOfWeek':
+    'prefix': 'dayOfWeek'
+    'body': 'dayOfWeek(${1:${2:date}})'
+  'dayOfWeekAsString':
+    'prefix': 'dayOfWeekAsString'
+    'body': 'dayOfWeekAsString(${1:${2:day_of_week}})'
+  'dayOfYear':
+    'prefix': 'dayOfYear'
+    'body': 'dayOfYear(${1:${2:date}})'
+  'daysInMonth':
+    'prefix': 'daysInMonth'
+    'body': 'daysInMonth(${1:${2:date}})'
+  'daysInYear':
+    'prefix': 'daysInYear'
+    'body': 'daysInYear(${1:${2:date}})'
+  'de':
+    'prefix': 'de'
+    'body': 'de(${1:"${2:String}"})'
+  'decimalFormat':
+    'prefix': 'decimalFormat'
+    'body': 'decimalFormat(${1:${2:number}})'
+  'decrementValue':
+    'prefix': 'decrementValue'
+    'body': 'decrementValue(${1:${2:number}})'
+  'decrypt':
+    'prefix': 'decrypt'
+    'body': 'decrypt(${1:"${2:encrypted_string}", "${3:key}"${4:, [algorithm]}${5:, [encoding]}${6:, [ivorsalt]}${7:, [iterations]}})'
+  'decryptBinary':
+    'prefix': 'decryptBinary'
+    'body': 'decryptBinary(${1:"${2:bytes}", "${3:key}"${4:, [algorithm]}${5:, [ivorsalt]}${6:, [iterations]}})'
+  'deleteClientVariable':
+    'prefix': 'deleteClientVariable'
+    'body': 'deleteClientVariable(${1:"${2:name}"})'
+  'deserializeJSON':
+    'prefix': 'deserializeJSON'
+    'body': 'deserializeJSON(${1:"${2:jsonvar}"${3:, [strictmapping]}})'
+  'directoryCreate':
+    'prefix': 'directoryCreate'
+    'body': 'directoryCreate(${1:"${2:path}"})'
+  'directoryDelete':
+    'prefix': 'directoryDelete'
+    'body': 'directoryDelete(${1:"${2:path}", ${3:recurse}})'
+  'directoryExists':
+    'prefix': 'directoryExists'
+    'body': 'directoryExists(${1:"${2:absolute_path}"})'
+  'directoryList':
+    'prefix': 'directoryList'
+    'body': 'directoryList(${1:"${2:path}"${3:, [recurse]}${4:, [returnType]}${5:, [filter]}${6:, [sort]}})'
+  'directoryRename':
+    'prefix': 'directoryRename'
+    'body': 'directoryRename(${1:"${2:path}", "${3:newPath}"})'
+  'directorySize':
+    'prefix': 'directorySize'
+    'body': 'directorySize(${1:"${2:path}"})'
+  'dollarFormat':
+    'prefix': 'dollarFormat'
+    'body': 'dollarFormat(${1:${2:number}})'
+  'dotnetToCFType':
+    'prefix': 'dotnetToCFType'
+    'body': 'dotnetToCFType(${1:${2:variable_name}})'
+  'duplicate':
+    'prefix': 'duplicate'
+    'body': 'duplicate(${1:${2:variable}})'
+  'encrypt':
+    'prefix': 'encrypt'
+    'body': 'encrypt(${1:"${2:String}", "${3:key}"${4:, [algorithm]}${5:, [encoding]}${6:, [ivorsalt]}${7:, [iterations]}})'
+  'encryptBinary':
+    'prefix': 'encryptBinary'
+    'body': 'encryptBinary(${1:"${2:bytes}", "${3:key}"${4:, [algorithm]}${5:, [ivorsalt]}${6:, [iterations]}})'
+  'entityDelete':
+    'prefix': 'entityDelete'
+    'body': 'entityDelete(${1:${2:entity}})'
+  'entityload':
+    'prefix': 'entityload'
+    'body': 'entityload(${1:"${2:entityName}", "${3:filtercriteria}"${4:, [unique]}${5:, [sortorder]}${6:, [options]}})'
+  'entityLoadByExample':
+    'prefix': 'entityLoadByExample'
+    'body': 'entityLoadByExample(${1:"${2:sampleEntity}"${3:, [unique]}})'
+  'entityLoadByPK':
+    'prefix': 'entityLoadByPK'
+    'body': 'entityLoadByPK(${1:"${2:entityName}", ${3:id}})'
+  'entityMerge':
+    'prefix': 'entityMerge'
+    'body': 'entityMerge(${1:${2:entity}})'
+  'entityNew':
+    'prefix': 'entityNew'
+    'body': 'entityNew(${1:"${2:entityName}"})'
+  'entityReload':
+    'prefix': 'entityReload'
+    'body': 'entityReload(${1:${2:entity}})'
+  'entitySave':
+    'prefix': 'entitySave'
+    'body': 'entitySave(${1:${2:entity}${3:, [forceInsert]}})'
+  'entityToQuery':
+    'prefix': 'entityToQuery'
+    'body': 'entityToQuery(${1:${2:orm_object}${3:, [entity_name]}})'
+  'evaluate':
+    'prefix': 'evaluate'
+    'body': 'evaluate(${1:"${2:expression1}"${3:, [expression2]}${4:, [expressionN]}})'
+  'exp':
+    'prefix': 'exp'
+    'body': 'exp(${1:${2:number}})'
+  'expandPath':
+    'prefix': 'expandPath'
+    'body': 'expandPath(${1:"${2:relative_path}"})'
+  'fileClose':
+    'prefix': 'fileClose'
+    'body': 'fileClose(${1:${2:fileObj}})'
+  'fileCopy':
+    'prefix': 'fileCopy'
+    'body': 'fileCopy(${1:"${2:source}", "${3:destination}"})'
+  'fileDelete':
+    'prefix': 'fileDelete'
+    'body': 'fileDelete(${1:${2:file}})'
+  'fileExists':
+    'prefix': 'fileExists'
+    'body': 'fileExists(${1:"${2:path}"})'
+  'fileIsEOF':
+    'prefix': 'fileIsEOF'
+    'body': 'fileIsEOF(${1:${2:fileObject}})'
+  'fileMove':
+    'prefix': 'fileMove'
+    'body': 'fileMove(${1:${2:source}, ${3:destination}})'
+  'fileOpen':
+    'prefix': 'fileOpen'
+    'body': 'fileOpen(${1:${2:Param1}, ${3:Param2}, ${4:Param3}})'
+  'fileRead':
+    'prefix': 'fileRead'
+    'body': 'fileRead(${1:"${2:filepath}"${3:, [charset]}})'
+  'fileReadBinary':
+    'prefix': 'fileReadBinary'
+    'body': 'fileReadBinary(${1:"${2:filePath}"})'
+  'fileReadLine':
+    'prefix': 'fileReadLine'
+    'body': 'fileReadLine(${1:${2:Param1}})'
+  'fileSeek':
+    'prefix': 'fileSeek'
+    'body': 'fileSeek(${1:${2:file}, ${3:position}})'
+  'fileSetAccessMode':
+    'prefix': 'fileSetAccessMode'
+    'body': 'fileSetAccessMode(${1:"${2:filePath}", "${3:mode}"})'
+  'fileSetAttribute':
+    'prefix': 'fileSetAttribute'
+    'body': 'fileSetAttribute(${1:"${2:filePath}", "${3:attribute}"})'
+  'fileSetLastModified':
+    'prefix': 'fileSetLastModified'
+    'body': 'fileSetLastModified(${1:"${2:filePath}", ${3:date}})'
+  'fileSkipBytes':
+    'prefix': 'fileSkipBytes'
+    'body': 'fileSkipBytes(${1:${2:file}, ${3:bytes}})'
+  'fileWrite':
+    'prefix': 'fileWrite'
+    'body': 'fileWrite(${1:"${2:filePath}", "${3:data}"${4:, [charset]}})'
+  'fileWriteLine':
+    'prefix': 'fileWriteLine'
+    'body': 'fileWriteLine(${1:${2:file}, ${3:content}})'
+  'find':
+    'prefix': 'find'
+    'body': 'find(${1:"${2:substring}", "${3:String}"${4:, [start]}})'
+  'findNoCase':
+    'prefix': 'findNoCase'
+    'body': 'findNoCase(${1:"${2:substring}", "${3:String}"${4:, [start]}})'
+  'findOnEOF':
+    'prefix': 'findOnEOF'
+    'body': 'findOnEOF(${1:"${2:set}", "${3:String}"${4:, [start]}})'
+  'firstDayOfMonth':
+    'prefix': 'firstDayOfMonth'
+    'body': 'firstDayOfMonth(${1:${2:date}})'
+  'fix':
+    'prefix': 'fix'
+    'body': 'fix(${1:${2:number}})'
+  'formatBaseN':
+    'prefix': 'formatBaseN'
+    'body': 'formatBaseN(${1:${2:number}, ${3:radix}})'
+  'generateSecretKey':
+    'prefix': 'generateSecretKey'
+    'body': 'generateSecretKey(${1:${2:[algorithm]}})'
+  'getAuthUser':
+    'prefix': 'getAuthUser'
+    'body': 'getAuthUser(${1:})'
+  'getBaseTagData':
+    'prefix': 'getBaseTagData'
+    'body': 'getBaseTagData(${1:"${2:tagname}"${3:, [instancenumber]}})'
+  'getBaseTagList':
+    'prefix': 'getBaseTagList'
+    'body': 'getBaseTagList(${1:})'
+  'getBaseTemplatePath':
+    'prefix': 'getBaseTemplatePath'
+    'body': 'getBaseTemplatePath(${1:})'
+  'getClientVariablesList':
+    'prefix': 'getClientVariablesList'
+    'body': 'getClientVariablesList(${1:})'
+  'getComponentMetadata':
+    'prefix': 'getComponentMetadata'
+    'body': 'getComponentMetadata(${1:"${2:path}"})'
+  'getContextRoot':
+    'prefix': 'getContextRoot'
+    'body': 'getContextRoot(${1:})'
+  'getCurrentTemplatePath':
+    'prefix': 'getCurrentTemplatePath'
+    'body': 'getCurrentTemplatePath(${1:})'
+  'getDirectoryFromPath':
+    'prefix': 'getDirectoryFromPath'
+    'body': 'getDirectoryFromPath(${1:"${2:path}"})'
+  'getEncoding':
+    'prefix': 'getEncoding'
+    'body': 'getEncoding(${1:"${2:scope_name}"})'
+  'getException':
+    'prefix': 'getException'
+    'body': 'getException(${1:${2:javaobject}})'
+  'getFileFromPath':
+    'prefix': 'getFileFromPath'
+    'body': 'getFileFromPath(${1:"${2:path}"})'
+  'getFileInfo':
+    'prefix': 'getFileInfo'
+    'body': 'getFileInfo(${1:"${2:path}"})'
+  'getFunctionList':
+    'prefix': 'getFunctionList'
+    'body': 'getFunctionList(${1:})'
+  'getGatewayHelper':
+    'prefix': 'getGatewayHelper'
+    'body': 'getGatewayHelper(${1:"${2:gatewayID}"})'
+  'getHTTPRequestData':
+    'prefix': 'getHTTPRequestData'
+    'body': 'getHTTPRequestData(${1:})'
+  'getHTTPTimeString':
+    'prefix': 'getHTTPTimeString'
+    'body': 'getHTTPTimeString(${1:${2:DateTime}})'
+  'getK2ServerDocCount':
+    'prefix': 'getK2ServerDocCount'
+    'body': 'getK2ServerDocCount(${1:})'
+  'getK2ServerDoccountLimit':
+    'prefix': 'getK2ServerDoccountLimit'
+    'body': 'getK2ServerDoccountLimit(${1:})'
+  'getLocale':
+    'prefix': 'getLocale'
+    'body': 'getLocale(${1:})'
+  'getLocaleDisplayName':
+    'prefix': 'getLocaleDisplayName'
+    'body': 'getLocaleDisplayName(${1:})'
+  'getLocalhostIP':
+    'prefix': 'getLocalhostIP'
+    'body': 'getLocalhostIP(${1:})'
+  'getMetadata':
+    'prefix': 'getMetadata'
+    'body': 'getMetadata(${1:${2:Object}})'
+  'getMetricData':
+    'prefix': 'getMetricData'
+    'body': 'getMetricData(${1:"${2:mode}"})'
+  'getPageContext':
+    'prefix': 'getPageContext'
+    'body': 'getPageContext(${1:})'
+  'getPrinterInfo':
+    'prefix': 'getPrinterInfo'
+    'body': 'getPrinterInfo(${1:"${2:printer}"})'
+  'getPrinterList':
+    'prefix': 'getPrinterList'
+    'body': 'getPrinterList(${1:"${2:printer}"})'
+  'getProfileSections':
+    'prefix': 'getProfileSections'
+    'body': 'getProfileSections(${1:"${2:inifile}"})'
+  'getProfileString':
+    'prefix': 'getProfileString'
+    'body': 'getProfileString(${1:"${2:inipath}", "${3:section}", "${4:entry}"})'
+  'getReadableImageFormats':
+    'prefix': 'getReadableImageFormats'
+    'body': 'getReadableImageFormats(${1:})'
+  'getSOAPRequest':
+    'prefix': 'getSOAPRequest'
+    'body': 'getSOAPRequest(${1:})'
+  'getSOAPRequestHeader':
+    'prefix': 'getSOAPRequestHeader'
+    'body': 'getSOAPRequestHeader(${1:"${2:namespace}", "${3:name}"${4:, [asXML]}})'
+  'getSOAPResponse':
+    'prefix': 'getSOAPResponse'
+    'body': 'getSOAPResponse(${1:"${2:webservice}"})'
+  'getSOAPResponseHeader':
+    'prefix': 'getSOAPResponseHeader'
+    'body': 'getSOAPResponseHeader(${1:${2:webservice}, "${3:namespace}", "${4:name}"${5:, [asXML]}})'
+  'getTempDirectory':
+    'prefix': 'getTempDirectory'
+    'body': 'getTempDirectory(${1:})'
+  'getTempFile':
+    'prefix': 'getTempFile'
+    'body': 'getTempFile(${1:"${2:dir}", "${3:prefix}"})'
+  'getTemplatePath':
+    'prefix': 'getTemplatePath'
+    'body': 'getTemplatePath(${1:})'
+  'getTickCount':
+    'prefix': 'getTickCount'
+    'body': 'getTickCount(${1:})'
+  'getTimezoneInfo':
+    'prefix': 'getTimezoneInfo'
+    'body': 'getTimezoneInfo(${1:"${2:text}"})'
+  'getToken':
+    'prefix': 'getToken'
+    'body': 'getToken(${1:"${2:String}", ${3:index}${4:, [delimiters]}})'
+  'getUserRoles':
+    'prefix': 'getUserRoles'
+    'body': 'getUserRoles(${1:})'
+  'getVFSMetadata':
+    'prefix': 'getVFSMetadata'
+    'body': 'getVFSMetadata(${1:"${2:fileSystemType}"})'
+  'getWriteableImageFormats':
+    'prefix': 'getWriteableImageFormats'
+    'body': 'getWriteableImageFormats(${1:})'
+  'hash':
+    'prefix': 'hash'
+    'body': 'hash(${1:"${2:String}"${3:, [algorithm]}${4:, [encoding]}})'
+  'hour':
+    'prefix': 'hour'
+    'body': 'hour(${1:${2:date}})'
+  'htmlCodeFormat':
+    'prefix': 'htmlCodeFormat'
+    'body': 'htmlCodeFormat(${1:"${2:String}"${3:, [version]}})'
+  'htmlEditFormat':
+    'prefix': 'htmlEditFormat'
+    'body': 'htmlEditFormat(${1:"${2:String}"${3:, [version]}})'
+  'iIf':
+    'prefix': 'iIf'
+    'body': 'iIf(${1:${2:condition}, "${3:expression1}", "${4:expression2}"})'
+  'imageAddBorder':
+    'prefix': 'imageAddBorder'
+    'body': 'imageAddBorder(${1:"${2:name}", "${3:thickness}"${4:, [color]}${5:, [bordertype]}})'
+  'imageBlur':
+    'prefix': 'imageBlur'
+    'body': 'imageBlur(${1:"${2:name}"${3:, [blurradius]}})'
+  'imageClearRect':
+    'prefix': 'imageClearRect'
+    'body': 'imageClearRect(${1:"${2:name}", ${3:x}, ${4:y}, ${5:width}, ${6:height}})'
+  'imageCopy':
+    'prefix': 'imageCopy'
+    'body': 'imageCopy(${1:"${2:name}", ${3:x}, ${4:y}, ${5:width}, ${6:height}${7:, [dx]}${8:, [dy]}})'
+  'imageCrop':
+    'prefix': 'imageCrop'
+    'body': 'imageCrop(${1:"${2:name}", ${3:x}, ${4:y}, ${5:width}, ${6:height}})'
+  'imageDrawArc':
+    'prefix': 'imageDrawArc'
+    'body': 'imageDrawArc(${1:"${2:name}", ${3:x}, ${4:y}, ${5:width}, ${6:height}, ${7:startAngle}, ${8:archAngle}${9:, [filled]}})'
+  'imageDrawBeveledRect':
+    'prefix': 'imageDrawBeveledRect'
+    'body': 'imageDrawBeveledRect(${1:"${2:name}", ${3:x}, ${4:y}, ${5:width}, ${6:height}, ${7:raised}${8:, [filled]}})'
+  'imageDrawCubicCurve':
+    'prefix': 'imageDrawCubicCurve'
+    'body': 'imageDrawCubicCurve(${1:${2:name}, "${3:ctrlx1}", ${4:ctrly1}, ${5:ctrlx2}, ${6:ctrly2}, ${7:x1}, ${8:y1}, ${9:x2}, ${10:y2}})'
+  'imageDrawLine':
+    'prefix': 'imageDrawLine'
+    'body': 'imageDrawLine(${1:"${2:name}", ${3:x1}, ${4:y1}, ${5:x2}, ${6:y2}})'
+  'imageDrawLines':
+    'prefix': 'imageDrawLines'
+    'body': 'imageDrawLines(${1:"${2:name}", ${3:xcords}, ${4:ycords}${5:, [isPolygon]}${6:, [filled]}})'
+  'imageDrawOval':
+    'prefix': 'imageDrawOval'
+    'body': 'imageDrawOval(${1:"${2:name}", ${3:x}, ${4:y}, ${5:width}, ${6:height}${7:, [filled]}})'
+  'imageDrawPoint':
+    'prefix': 'imageDrawPoint'
+    'body': 'imageDrawPoint(${1:"${2:name}", ${3:x}, ${4:y}})'
+  'imageDrawQuadraticCurve':
+    'prefix': 'imageDrawQuadraticCurve'
+    'body': 'imageDrawQuadraticCurve(${1:${2:name}, "${3:ctrlx1}", ${4:ctrly1}, ${5:ctrlx2}, ${6:ctrly2}, ${7:x1}, ${8:y1}, ${9:x2}, ${10:y2}})'
+  'imageDrawRect':
+    'prefix': 'imageDrawRect'
+    'body': 'imageDrawRect(${1:"${2:name}", ${3:x}, ${4:y}, ${5:width}, ${6:height}${7:, [filled]}})'
+  'imageDrawRoundRect':
+    'prefix': 'imageDrawRoundRect'
+    'body': 'imageDrawRoundRect(${1:"${2:name}", ${3:x}, ${4:y}, ${5:width}, ${6:height}, ${7:arcwidth}, ${8:archeight}${9:, [filled]}})'
+  'imageDrawText':
+    'prefix': 'imageDrawText'
+    'body': 'imageDrawText(${1:"${2:name}", "${3:str}", ${4:x}, ${5:y}, ${6:attributecollection}})'
+  'imageFlip':
+    'prefix': 'imageFlip'
+    'body': 'imageFlip(${1:"${2:name}", "${3:transpose}"})'
+  'imageGetBlob':
+    'prefix': 'imageGetBlob'
+    'body': 'imageGetBlob(${1:"${2:source}"})'
+  'imageGetBufferedImage':
+    'prefix': 'imageGetBufferedImage'
+    'body': 'imageGetBufferedImage(${1:"${2:name}"})'
+  'imageGetEXIFTag':
+    'prefix': 'imageGetEXIFTag'
+    'body': 'imageGetEXIFTag(${1:"${2:name}", "${3:tagName}"})'
+  'imageGetHeight':
+    'prefix': 'imageGetHeight'
+    'body': 'imageGetHeight(${1:"${2:name}"})'
+  'imageGetIPTCtag':
+    'prefix': 'imageGetIPTCtag'
+    'body': 'imageGetIPTCtag(${1:"${2:name}", "${3:tagName}"})'
+  'imageGetWidth':
+    'prefix': 'imageGetWidth'
+    'body': 'imageGetWidth(${1:"${2:name}"})'
+  'imageGrayScale':
+    'prefix': 'imageGrayScale'
+    'body': 'imageGrayScale(${1:"${2:name}"})'
+  'imageInfo':
+    'prefix': 'imageInfo'
+    'body': 'imageInfo(${1:"${2:name}"})'
+  'imageNegative':
+    'prefix': 'imageNegative'
+    'body': 'imageNegative(${1:"${2:name}"})'
+  'imageNew':
+    'prefix': 'imageNew'
+    'body': 'imageNew(${1:${2:[source]}${3:, [width]}${4:, [height]}${5:, [imagetype]}${6:, [canvascolor]}})'
+  'imageOverlay':
+    'prefix': 'imageOverlay'
+    'body': 'imageOverlay(${1:"${2:source1}", "${3:source2}"})'
+  'imagePaste':
+    'prefix': 'imagePaste'
+    'body': 'imagePaste(${1:"${2:image1}", "${3:image2}", ${4:x}, ${5:y}})'
+  'imageRead':
+    'prefix': 'imageRead'
+    'body': 'imageRead(${1:"${2:path}"})'
+  'imageReadBase64':
+    'prefix': 'imageReadBase64'
+    'body': 'imageReadBase64(${1:"${2:string}"})'
+  'imageResize':
+    'prefix': 'imageResize'
+    'body': 'imageResize(${1:"${2:name}", ${3:width}, ${4:height}, "${5:interpolation}", ${6:blurfactor}})'
+  'imageRotate':
+    'prefix': 'imageRotate'
+    'body': 'imageRotate(${1:"${2:name}", ${3:angle}${4:, [x]}${5:, [y]}${6:, [interpolation]}})'
+  'imageRotateDrawingAxis':
+    'prefix': 'imageRotateDrawingAxis'
+    'body': 'imageRotateDrawingAxis(${1:"${2:name}", ${3:angle}${4:, [x]}${5:, [y]}})'
+  'imageScaleTofit':
+    'prefix': 'imageScaleTofit'
+    'body': 'imageScaleTofit(${1:"${2:name}", ${3:fitWidth}, ${4:fitHeight}${5:, [interpolation]}${6:, [blurFactor]}})'
+  'imageSetAntialiasing':
+    'prefix': 'imageSetAntialiasing'
+    'body': 'imageSetAntialiasing(${1:"${2:name}"${3:, [antialias]}})'
+  'imageSetBackgroundColor':
+    'prefix': 'imageSetBackgroundColor'
+    'body': 'imageSetBackgroundColor(${1:${2:name}, ${3:color}})'
+  'imageSetDrawingColor':
+    'prefix': 'imageSetDrawingColor'
+    'body': 'imageSetDrawingColor(${1:"${2:name}", "${3:color}"})'
+  'imageSetDrawingStroke':
+    'prefix': 'imageSetDrawingStroke'
+    'body': 'imageSetDrawingStroke(${1:"${2:name}"${3:, [attributecollection]}})'
+  'imageSetDrawingTransparency':
+    'prefix': 'imageSetDrawingTransparency'
+    'body': 'imageSetDrawingTransparency(${1:${2:name}, ${3:percent}})'
+  'imageSharpen':
+    'prefix': 'imageSharpen'
+    'body': 'imageSharpen(${1:"${2:name}"${3:, [gain]}})'
+  'imageShear':
+    'prefix': 'imageShear'
+    'body': 'imageShear(${1:"${2:name}", ${3:shear}${4:, [direction]}${5:, [interpolation]}})'
+  'imageShearDrawingAxis':
+    'prefix': 'imageShearDrawingAxis'
+    'body': 'imageShearDrawingAxis(${1:"${2:name}", ${3:shrx}, ${4:shry}})'
+  'imageTranslate':
+    'prefix': 'imageTranslate'
+    'body': 'imageTranslate(${1:"${2:name}", ${3:xTrans}, ${4:yTrans}${5:, [interpolation]}})'
+  'imageTranslateDrawingAxis':
+    'prefix': 'imageTranslateDrawingAxis'
+    'body': 'imageTranslateDrawingAxis(${1:${2:Param1}, "${3:name}", ${4:x}, ${5:y}})'
+  'imageWrite':
+    'prefix': 'imageWrite'
+    'body': 'imageWrite(${1:"${2:name}"${3:, [destination]}${4:, [quality]}${5:, [overwrite]}})'
+  'imageWriteBase64':
+    'prefix': 'imageWriteBase64'
+    'body': 'imageWriteBase64(${1:"${2:name}", "${3:destination}", "${4:format}"${5:, [inHTMLFormat]}${6:, [overwrite]}})'
+  'imageXORDrawingMode':
+    'prefix': 'imageXORDrawingMode'
+    'body': 'imageXORDrawingMode(${1:"${2:name}", "${3:c1}"})'
+  'incrementValue':
+    'prefix': 'incrementValue'
+    'body': 'incrementValue(${1:${2:number}})'
+  'inputBaseN':
+    'prefix': 'inputBaseN'
+    'body': 'inputBaseN(${1:"${2:String}", "${3:radix}"})'
+  'insert':
+    'prefix': 'insert'
+    'body': 'insert(${1:"${2:substring}", "${3:String}", ${4:position}})'
+  'int':
+    'prefix': 'int'
+    'body': 'int(${1:${2:number}})'
+  'isArray':
+    'prefix': 'isArray'
+    'body': 'isArray(${1:${2:value}${3:, [number]}})'
+  'isBinary':
+    'prefix': 'isBinary'
+    'body': 'isBinary(${1:${2:value}})'
+  'isBoolean':
+    'prefix': 'isBoolean'
+    'body': 'isBoolean(${1:${2:value}})'
+  'isCustomFunction':
+    'prefix': 'isCustomFunction'
+    'body': 'isCustomFunction(${1:${2:Object}})'
+  'isDDX':
+    'prefix': 'isDDX'
+    'body': 'isDDX(${1:"${2:path}"})'
+  'isDate':
+    'prefix': 'isDate'
+    'body': 'isDate(${1:${2:Object}})'
+  'isDebugMode':
+    'prefix': 'isDebugMode'
+    'body': 'isDebugMode(${1:})'
+  'isDefined':
+    'prefix': 'isDefined'
+    'body': 'isDefined(${1:"${2:variable_name}"})'
+  'isIPV6':
+    'prefix': 'isIPV6'
+    'body': 'isIPV6(${1:"${2:IP}"})'
+  'isImage':
+    'prefix': 'isImage'
+    'body': 'isImage(${1:"${2:name}"})'
+  'isImageFile':
+    'prefix': 'isImageFile'
+    'body': 'isImageFile(${1:"${2:path}"})'
+  'isInstanceOf':
+    'prefix': 'isInstanceOf'
+    'body': 'isInstanceOf(${1:${2:object}, "${3:typename}"})'
+  'isJSON':
+    'prefix': 'isJSON'
+    'body': 'isJSON(${1:"${2:var}"})'
+  'isLeapYear':
+    'prefix': 'isLeapYear'
+    'body': 'isLeapYear(${1:${2:year}})'
+  'isLocalhost':
+    'prefix': 'isLocalhost'
+    'body': 'isLocalhost(${1:"${2:ipaddress}"})'
+  'isNull':
+    'prefix': 'isNull'
+    'body': 'isNull(${1:${2:object}})'
+  'isNumeric':
+    'prefix': 'isNumeric'
+    'body': 'isNumeric(${1:"${2:String}"})'
+  'isNumericDate':
+    'prefix': 'isNumericDate'
+    'body': 'isNumericDate(${1:${2:number}})'
+  'isObject':
+    'prefix': 'isObject'
+    'body': 'isObject(${1:${2:value}})'
+  'isPDFFile':
+    'prefix': 'isPDFFile'
+    'body': 'isPDFFile(${1:"${2:path}"})'
+  'isPDFObject':
+    'prefix': 'isPDFObject'
+    'body': 'isPDFObject(${1:${2:value}})'
+  'isQuery':
+    'prefix': 'isQuery'
+    'body': 'isQuery(${1:"${2:value}"})'
+  'isSOAPRequest':
+    'prefix': 'isSOAPRequest'
+    'body': 'isSOAPRequest(${1:})'
+  'isSimpleValue':
+    'prefix': 'isSimpleValue'
+    'body': 'isSimpleValue(${1:${2:value}})'
+  'isSpreadsheetFile':
+    'prefix': 'isSpreadsheetFile'
+    'body': 'isSpreadsheetFile(${1:"${2:file}"})'
+  'isSpreadsheetObject':
+    'prefix': 'isSpreadsheetObject'
+    'body': 'isSpreadsheetObject(${1:${2:object}})'
+  'isStruct':
+    'prefix': 'isStruct'
+    'body': 'isStruct(${1:${2:variable}})'
+  'isUserInAnyRole':
+    'prefix': 'isUserInAnyRole'
+    'body': 'isUserInAnyRole(${1:"${2:roleList}"})'
+  'isUserInRole':
+    'prefix': 'isUserInRole'
+    'body': 'isUserInRole(${1:"${2:role_name}"})'
+  'isUserLoggedIn':
+    'prefix': 'isUserLoggedIn'
+    'body': 'isUserLoggedIn(${1:})'
+  'isValid':
+    'prefix': 'isValid'
+    'body': 'isValid(${1:"${2:type}", ${3:value}, ${4:min}, ${5:max}, "${6:pattern}"})'
+  'isWDDX':
+    'prefix': 'isWDDX'
+    'body': 'isWDDX(${1:${2:value}})'
+  'isXML':
+    'prefix': 'isXML'
+    'body': 'isXML(${1:"${2:value}"})'
+  'isXMLAttribute':
+    'prefix': 'isXMLAttribute'
+    'body': 'isXMLAttribute(${1:${2:value}})'
+  'isXMLDoc':
+    'prefix': 'isXMLDoc'
+    'body': 'isXMLDoc(${1:${2:value}})'
+  'isXMLElem':
+    'prefix': 'isXMLElem'
+    'body': 'isXMLElem(${1:${2:value}})'
+  'isXMLNode':
+    'prefix': 'isXMLNode'
+    'body': 'isXMLNode(${1:${2:value}})'
+  'isXMLRoot':
+    'prefix': 'isXMLRoot'
+    'body': 'isXMLRoot(${1:${2:value}})'
+  'javacast':
+    'prefix': 'javacast'
+    'body': 'javacast(${1:"${2:type}", "${3:variable}"})'
+  'jsStringFormat':
+    'prefix': 'jsStringFormat'
+    'body': 'jsStringFormat(${1:"${2:String}"})'
+  'lCase':
+    'prefix': 'lCase'
+    'body': 'lCase(${1:"${2:String}"})'
+  'lJustify':
+    'prefix': 'lJustify'
+    'body': 'lJustify(${1:"${2:String}", ${3:length}})'
+  'lTrim':
+    'prefix': 'lTrim'
+    'body': 'lTrim(${1:"${2:String}"})'
+  'left':
+    'prefix': 'left'
+    'body': 'left(${1:"${2:String}", ${3:count}})'
+  'len':
+    'prefix': 'len'
+    'body': 'len(${1:${2:Object}})'
+  'listAppend':
+    'prefix': 'listAppend'
+    'body': 'listAppend(${1:"${2:list}", "${3:value}"${4:, [delimiters]}})'
+  'listChangeDelims':
+    'prefix': 'listChangeDelims'
+    'body': 'listChangeDelims(${1:"${2:list}", "${3:new_delimiter}"${4:, [delimiters]}})'
+  'listContains':
+    'prefix': 'listContains'
+    'body': 'listContains(${1:"${2:list}", "${3:substring}"${4:, [delimiters]}})'
+  'listContainsNoCase':
+    'prefix': 'listContainsNoCase'
+    'body': 'listContainsNoCase(${1:"${2:list}", "${3:substring}"${4:, [delimiters]}})'
+  'listDeleteAt':
+    'prefix': 'listDeleteAt'
+    'body': 'listDeleteAt(${1:"${2:list}", ${3:position}${4:, [delimiters]}})'
+  'listFind':
+    'prefix': 'listFind'
+    'body': 'listFind(${1:"${2:list}", "${3:value}"${4:, [delimiters]}})'
+  'listFindNoCase':
+    'prefix': 'listFindNoCase'
+    'body': 'listFindNoCase(${1:"${2:list}", "${3:value}"${4:, [delimiters]}})'
+  'listFirst':
+    'prefix': 'listFirst'
+    'body': 'listFirst(${1:"${2:list}"${3:, [delimiters]}})'
+  'listGetAt':
+    'prefix': 'listGetAt'
+    'body': 'listGetAt(${1:"${2:list}", ${3:position}${4:, [delimiters]}})'
+  'listInsertAt':
+    'prefix': 'listInsertAt'
+    'body': 'listInsertAt(${1:"${2:list}", ${3:position}, "${4:value}"${5:, [delimiters]}})'
+  'listLast':
+    'prefix': 'listLast'
+    'body': 'listLast(${1:"${2:list}"${3:, [delimiters]}})'
+  'listLen':
+    'prefix': 'listLen'
+    'body': 'listLen(${1:"${2:list}"${3:, [delimiters]}})'
+  'listPrepend':
+    'prefix': 'listPrepend'
+    'body': 'listPrepend(${1:"${2:list}", "${3:value}"${4:, [delimiters]}})'
+  'listQualify':
+    'prefix': 'listQualify'
+    'body': 'listQualify(${1:"${2:list}", "${3:qualifier}"${4:, [delimiters]}${5:, [elements]}})'
+  'listRest':
+    'prefix': 'listRest'
+    'body': 'listRest(${1:"${2:list}"${3:, [delimiters]}})'
+  'listSetAt':
+    'prefix': 'listSetAt'
+    'body': 'listSetAt(${1:"${2:list}", ${3:position}, "${4:value}"${5:, [delimiters]}})'
+  'listSort':
+    'prefix': 'listSort'
+    'body': 'listSort(${1:"${2:list}", "${3:sort_type}"${4:, [sort_order]}${5:, [delimiters]}})'
+  'listToArray':
+    'prefix': 'listToArray'
+    'body': 'listToArray(${1:"${2:list}"${3:, [delimiters]}${4:, [includeEmptyFields]}${5:, [multiCharacterDelimiter]}})'
+  'listValueCount':
+    'prefix': 'listValueCount'
+    'body': 'listValueCount(${1:"${2:list}", "${3:value}"${4:, [delimiters]}})'
+  'listValueCountNoCase':
+    'prefix': 'listValueCountNoCase'
+    'body': 'listValueCountNoCase(${1:"${2:list}", "${3:value}"${4:, [delimiters]}})'
+  'location':
+    'prefix': 'location'
+    'body': 'location(${1:"${2:url}"${3:, [addtoken]}${4:, [statuscode]}})'
+  'log':
+    'prefix': 'log'
+    'body': 'log(${1:${2:number}})'
+  'log10':
+    'prefix': 'log10'
+    'body': 'log10(${1:${2:number}})'
+  'lsCurrencyFormat':
+    'prefix': 'lsCurrencyFormat'
+    'body': 'lsCurrencyFormat(${1:${2:number}${3:, [type]}})'
+  'lsDateFormat':
+    'prefix': 'lsDateFormat'
+    'body': 'lsDateFormat(${1:${2:date}${3:, [mask]}})'
+  'lsEuroCurrencyFormat':
+    'prefix': 'lsEuroCurrencyFormat'
+    'body': 'lsEuroCurrencyFormat(${1:"${2:currency}", "${3:type}"})'
+  'lsIsCurrency':
+    'prefix': 'lsIsCurrency'
+    'body': 'lsIsCurrency(${1:"${2:String}"})'
+  'lsIsDate':
+    'prefix': 'lsIsDate'
+    'body': 'lsIsDate(${1:"${2:String}"})'
+  'lsIsNumeric':
+    'prefix': 'lsIsNumeric'
+    'body': 'lsIsNumeric(${1:"${2:String}"})'
+  'lsNumberFormat':
+    'prefix': 'lsNumberFormat'
+    'body': 'lsNumberFormat(${1:${2:number}${3:, [mask]}})'
+  'lsParseCurrency':
+    'prefix': 'lsParseCurrency'
+    'body': 'lsParseCurrency(${1:"${2:String}"})'
+  'lsParseDateTime':
+    'prefix': 'lsParseDateTime'
+    'body': 'lsParseDateTime(${1:"${2:dt_string}"})'
+  'lsParseEuroCurrency':
+    'prefix': 'lsParseEuroCurrency'
+    'body': 'lsParseEuroCurrency(${1:"${2:currency_string}"})'
+  'lsParseNumber':
+    'prefix': 'lsParseNumber'
+    'body': 'lsParseNumber(${1:"${2:String}"})'
+  'lsTimeFormat':
+    'prefix': 'lsTimeFormat'
+    'body': 'lsTimeFormat(${1:${2:time}${3:, [mask]}})'
+  'max':
+    'prefix': 'max'
+    'body': 'max(${1:${2:number1}, ${3:number2}})'
+  'mid':
+    'prefix': 'mid'
+    'body': 'mid(${1:"${2:String}", ${3:start}, ${4:count}})'
+  'min':
+    'prefix': 'min'
+    'body': 'min(${1:${2:number1}, ${3:number2}})'
+  'minute':
+    'prefix': 'minute'
+    'body': 'minute(${1:${2:date}})'
+  'month':
+    'prefix': 'month'
+    'body': 'month(${1:${2:date}})'
+  'monthAsString':
+    'prefix': 'monthAsString'
+    'body': 'monthAsString(${1:${2:month_number}})'
+  'now':
+    'prefix': 'now'
+    'body': 'now(${1:})'
+  'numberFormat':
+    'prefix': 'numberFormat'
+    'body': 'numberFormat(${1:${2:number}${3:, [mask]}})'
+  'objectEquals':
+    'prefix': 'objectEquals'
+    'body': 'objectEquals(${1:${2:Param1}, ${3:Param2}})'
+  'objectload':
+    'prefix': 'objectload'
+    'body': 'objectload(${1:${2:binaryObject}})'
+  'objectSave':
+    'prefix': 'objectSave'
+    'body': 'objectSave(${1:${2:object}${3:, [file]}})'
+  'ormClearSession':
+    'prefix': 'ormClearSession'
+    'body': 'ormClearSession(${1:})'
+  'ormCloseSession':
+    'prefix': 'ormCloseSession'
+    'body': 'ormCloseSession(${1:})'
+  'ormEvictCollection':
+    'prefix': 'ormEvictCollection'
+    'body': 'ormEvictCollection(${1:"${2:componentName}", "${3:relationName}"${4:, [id]}})'
+  'ormEvictEntity':
+    'prefix': 'ormEvictEntity'
+    'body': 'ormEvictEntity(${1:"${2:componentName}"${3:, [id]}})'
+  'ormEvictQueries':
+    'prefix': 'ormEvictQueries'
+    'body': 'ormEvictQueries(${1:${2:[cacheName]}})'
+  'ormExecuteQuery':
+    'prefix': 'ormExecuteQuery'
+    'body': 'ormExecuteQuery(${1:"${2:hql}"${3:, [unique]}${4:, [queryoptions]}})'
+  'ormFlush':
+    'prefix': 'ormFlush'
+    'body': 'ormFlush(${1:})'
+  'ormGetSession':
+    'prefix': 'ormGetSession'
+    'body': 'ormGetSession(${1:})'
+  'ormGetSessionFactory':
+    'prefix': 'ormGetSessionFactory'
+    'body': 'ormGetSessionFactory(${1:})'
+  'ormReload':
+    'prefix': 'ormReload'
+    'body': 'ormReload(${1:})'
+  'paragraphFormat':
+    'prefix': 'paragraphFormat'
+    'body': 'paragraphFormat(${1:"${2:String}"})'
+  'parseDateTime':
+    'prefix': 'parseDateTime'
+    'body': 'parseDateTime(${1:"${2:dt_string}"${3:, [pop_conversion]}})'
+  'pi':
+    'prefix': 'pi'
+    'body': 'pi(${1:})'
+  'precisionEvaluate':
+    'prefix': 'precisionEvaluate'
+    'body': 'precisionEvaluate(${1:"${2:expressions}"})'
+  'preserveSingleQuotes':
+    'prefix': 'preserveSingleQuotes'
+    'body': 'preserveSingleQuotes(${1:"${2:variable}"})'
+  'quarter':
+    'prefix': 'quarter'
+    'body': 'quarter(${1:${2:date}})'
+  'queryAddColumn':
+    'prefix': 'queryAddColumn'
+    'body': 'queryAddColumn(${1:${2:query}, "${3:column_name}"${4:, [datatype]}, ${5:array_name}})'
+  'queryAddRow':
+    'prefix': 'queryAddRow'
+    'body': 'queryAddRow(${1:${2:query}${3:, [number]}})'
+  'queryConvertForGrid':
+    'prefix': 'queryConvertForGrid'
+    'body': 'queryConvertForGrid(${1:"${2:query}", ${3:page}, ${4:pageSize}})'
+  'queryNew':
+    'prefix': 'queryNew'
+    'body': 'queryNew(${1:"${2:columnlist}"${3:, [columntypelist]}})'
+  'querySetCell':
+    'prefix': 'querySetCell'
+    'body': 'querySetCell(${1:${2:query}, "${3:column}", ${4:value}${5:, [row]}})'
+  'quotedValueList':
+    'prefix': 'quotedValueList'
+    'body': 'quotedValueList(${1:${2:column}${3:, [delimiter]}})'
+  'rJustify':
+    'prefix': 'rJustify'
+    'body': 'rJustify(${1:"${2:String}", ${3:length}})'
+  'rTrim':
+    'prefix': 'rTrim'
+    'body': 'rTrim(${1:"${2:String}"})'
+  'rand':
+    'prefix': 'rand'
+    'body': 'rand(${1:${2:[algorithm]}})'
+  'randRange':
+    'prefix': 'randRange'
+    'body': 'randRange(${1:${2:number1}, ${3:number2}${4:, [algorithm]}})'
+  'randomize':
+    'prefix': 'randomize'
+    'body': 'randomize(${1:${2:number}${3:, [algorithm]}})'
+  'reFind':
+    'prefix': 'reFind'
+    'body': 'reFind(${1:${2:reg_expression}, "${3:String}"${4:, [start]}${5:, [returnsubexpressions]}})'
+  'reMatchNoCase':
+    'prefix': 'reMatchNoCase'
+    'body': 'reMatchNoCase(${1:"${2:reg_expression}", "${3:string}"})'
+  'refindNoCase':
+    'prefix': 'refindNoCase'
+    'body': 'refindNoCase(${1:${2:reg_expression}, "${3:String}"${4:, [start]}${5:, [returnsubexpressions]}})'
+  'releaseCOMObject':
+    'prefix': 'releaseCOMObject'
+    'body': 'releaseCOMObject(${1:${2:objectName}})'
+  'rematch':
+    'prefix': 'rematch'
+    'body': 'rematch(${1:"${2:reg_expression}", "${3:string}"})'
+  'removeChars':
+    'prefix': 'removeChars'
+    'body': 'removeChars(${1:"${2:String}", ${3:start}, ${4:count}})'
+  'repeatString':
+    'prefix': 'repeatString'
+    'body': 'repeatString(${1:"${2:String}", ${3:count}})'
+  'replace':
+    'prefix': 'replace'
+    'body': 'replace(${1:"${2:String}", "${3:substring1}", "${4:substring2}"${5:, [scope]}})'
+  'replaceList':
+    'prefix': 'replaceList'
+    'body': 'replaceList(${1:"${2:String}", "${3:list1}", "${4:list2}"})'
+  'replaceNoCase':
+    'prefix': 'replaceNoCase'
+    'body': 'replaceNoCase(${1:"${2:String}", "${3:substring1}", "${4:substring2}"${5:, [scope]}})'
+  'rereplace':
+    'prefix': 'rereplace'
+    'body': 'rereplace(${1:"${2:String}", ${3:reg_expression}, "${4:substring}"${5:, [scope]}})'
+  'rereplaceNoCase':
+    'prefix': 'rereplaceNoCase'
+    'body': 'rereplaceNoCase(${1:"${2:String}", ${3:reg_expression}, "${4:substring}"${5:, [scope]}})'
+  'reverse':
+    'prefix': 'reverse'
+    'body': 'reverse(${1:"${2:String}"})'
+  'right':
+    'prefix': 'right'
+    'body': 'right(${1:"${2:String}", ${3:count}})'
+  'round':
+    'prefix': 'round'
+    'body': 'round(${1:${2:number}})'
+  'second':
+    'prefix': 'second'
+    'body': 'second(${1:${2:date}})'
+  'sendGatewayMessage':
+    'prefix': 'sendGatewayMessage'
+    'body': 'sendGatewayMessage(${1:"${2:gatewayID}", ${3:data}})'
+  'serializeJSON':
+    'prefix': 'serializeJSON'
+    'body': 'serializeJSON(${1:${2:var}${3:, [serializeQueryByColumns]}})'
+  'setEncoding':
+    'prefix': 'setEncoding'
+    'body': 'setEncoding(${1:"${2:scope_name}", "${3:charset}"})'
+  'setLocale':
+    'prefix': 'setLocale'
+    'body': 'setLocale(${1:"${2:new_locale}"})'
+  'setProfileString':
+    'prefix': 'setProfileString'
+    'body': 'setProfileString(${1:"${2:inipath}", "${3:section}", "${4:entry}", "${5:value}"})'
+  'setVariable':
+    'prefix': 'setVariable'
+    'body': 'setVariable(${1:"${2:name}", "${3:value}"})'
+  'sgn':
+    'prefix': 'sgn'
+    'body': 'sgn(${1:${2:number}})'
+  'sin':
+    'prefix': 'sin'
+    'body': 'sin(${1:${2:number}})'
+  'sleep':
+    'prefix': 'sleep'
+    'body': 'sleep(${1:${2:Param1}})'
+  'spanExcluding':
+    'prefix': 'spanExcluding'
+    'body': 'spanExcluding(${1:"${2:String}", "${3:set}"})'
+  'spanIncluding':
+    'prefix': 'spanIncluding'
+    'body': 'spanIncluding(${1:"${2:String}", "${3:set}"})'
+  'spreadSheetAddFreezePane':
+    'prefix': 'spreadSheetAddFreezePane'
+    'body': 'spreadSheetAddFreezePane(${1:${2:spreadsheetObj}, ${3:column}, ${4:row}${5:, [endColumn]}${6:, [endRow]}})'
+  'spreadSheetAddSplitPane':
+    'prefix': 'spreadSheetAddSplitPane'
+    'body': 'spreadSheetAddSplitPane(${1:${2:spreadsheetObj}, ${3:x}, ${4:y}, ${5:splitColumn}, ${6:splitRow}${7:, [position]}})'
+  'spreadSheetInfo':
+    'prefix': 'spreadSheetInfo'
+    'body': 'spreadSheetInfo(${1:${2:spreadsheetObj}})'
+  'spreadSheetReadBinary':
+    'prefix': 'spreadSheetReadBinary'
+    'body': 'spreadSheetReadBinary(${1:${2:spreadsheetObj}})'
+  'spreadsheetAddColumn':
+    'prefix': 'spreadsheetAddColumn'
+    'body': 'spreadsheetAddColumn(${1:${2:spreadsheetObj}, "${3:data}", ${4:startrow}, ${5:startcolumn}, ${6:insert}${7:, [insert]}})'
+  'spreadsheetAddimage':
+    'prefix': 'spreadsheetAddimage'
+    'body': 'spreadsheetAddimage(${1:${2:spreadsheetObj}, "${3:imagefilepath}", "${4:anchor}"})'
+  'spreadsheetAddInfo':
+    'prefix': 'spreadsheetAddInfo'
+    'body': 'spreadsheetAddInfo(${1:${2:spreadsheetObj}, ${3:info}})'
+  'spreadsheetAddRow':
+    'prefix': 'spreadsheetAddRow'
+    'body': 'spreadsheetAddRow(${1:${2:spreadsheetObj}, "${3:data}"${4:, [row]}${5:, [column]}${6:, [insert]}})'
+  'spreadsheetAddRows':
+    'prefix': 'spreadsheetAddRows'
+    'body': 'spreadsheetAddRows(${1:${2:spreadsheetObj}, "${3:data}", ${4:row}${5:, [insert]}})'
+  'spreadsheetCreateSheet':
+    'prefix': 'spreadsheetCreateSheet'
+    'body': 'spreadsheetCreateSheet(${1:${2:spreadsheetObj}, "${3:name}"})'
+  'spreadsheetDeleteColumn':
+    'prefix': 'spreadsheetDeleteColumn'
+    'body': 'spreadsheetDeleteColumn(${1:${2:spreadsheetObj}, ${3:column}})'
+  'spreadsheetDeleteColumns':
+    'prefix': 'spreadsheetDeleteColumns'
+    'body': 'spreadsheetDeleteColumns(${1:${2:spreadsheetObj}, ${3:range}})'
+  'spreadsheetDeleteRow':
+    'prefix': 'spreadsheetDeleteRow'
+    'body': 'spreadsheetDeleteRow(${1:${2:spreadsheetObj}, ${3:row}})'
+  'spreadsheetDeleteRows':
+    'prefix': 'spreadsheetDeleteRows'
+    'body': 'spreadsheetDeleteRows(${1:${2:spreadsheetObj}, ${3:range}})'
+  'spreadsheetFormatCell':
+    'prefix': 'spreadsheetFormatCell'
+    'body': 'spreadsheetFormatCell(${1:${2:spreadsheetObj}, "${3:format}", ${4:row}, ${5:column}})'
+  'spreadsheetFormatColumn':
+    'prefix': 'spreadsheetFormatColumn'
+    'body': 'spreadsheetFormatColumn(${1:${2:spreadsheetObj}, "${3:format}", ${4:column}})'
+  'spreadsheetFormatColumns':
+    'prefix': 'spreadsheetFormatColumns'
+    'body': 'spreadsheetFormatColumns(${1:${2:spreadsheetObj}, "${3:format}", "${4:columns}"})'
+  'spreadsheetFormatRow':
+    'prefix': 'spreadsheetFormatRow'
+    'body': 'spreadsheetFormatRow(${1:${2:spreadsheetObj}, "${3:format}", ${4:row}})'
+  'spreadsheetFormatRows':
+    'prefix': 'spreadsheetFormatRows'
+    'body': 'spreadsheetFormatRows(${1:${2:spreadsheetObj}, "${3:format}", ${4:row}})'
+  'spreadsheetGetCellComment':
+    'prefix': 'spreadsheetGetCellComment'
+    'body': 'spreadsheetGetCellComment(${1:"${2:author}"${3:, [column]}${4:, [comment]}${5:, [row]}})'
+  'spreadsheetGetCellFormula':
+    'prefix': 'spreadsheetGetCellFormula'
+    'body': 'spreadsheetGetCellFormula(${1:${2:spreadsheetObj}, ${3:row}, ${4:column}})'
+  'spreadsheetGetCellValue':
+    'prefix': 'spreadsheetGetCellValue'
+    'body': 'spreadsheetGetCellValue(${1:${2:spreadsheetObj}, "${3:row}", "${4:column}"})'
+  'spreadsheetMergeCells':
+    'prefix': 'spreadsheetMergeCells'
+    'body': 'spreadsheetMergeCells(${1:${2:spreadsheetObj}, ${3:startrow}, ${4:endrow}, ${5:startcolumn}, ${6:endcolumn}})'
+  'spreadsheetNew':
+    'prefix': 'spreadsheetNew'
+    'body': 'spreadsheetNew(${1:${2:[sheetname]}${3:, [xmlFormat]}})'
+  'spreadsheetRead':
+    'prefix': 'spreadsheetRead'
+    'body': 'spreadsheetRead(${1:"${2:fileName}", ${3:spreadsheetObj}})'
+  'spreadsheetSetActiveSheet':
+    'prefix': 'spreadsheetSetActiveSheet'
+    'body': 'spreadsheetSetActiveSheet(${1:${2:spreadsheetObj}${3:, [name]}})'
+  'spreadsheetSetActiveSheetNumber':
+    'prefix': 'spreadsheetSetActiveSheetNumber'
+    'body': 'spreadsheetSetActiveSheetNumber(${1:${2:spreadsheetObj}${3:, [number]}})'
+  'spreadsheetSetCellComment':
+    'prefix': 'spreadsheetSetCellComment'
+    'body': 'spreadsheetSetCellComment(${1:${2:spreadsheetObj}, "${3:comment}", ${4:row}, ${5:column}})'
+  'spreadsheetSetCellFormula':
+    'prefix': 'spreadsheetSetCellFormula'
+    'body': 'spreadsheetSetCellFormula(${1:${2:spreadsheetObj}, "${3:formula}", ${4:row}, ${5:column}})'
+  'spreadsheetSetCellValue':
+    'prefix': 'spreadsheetSetCellValue'
+    'body': 'spreadsheetSetCellValue(${1:${2:spreadsheetObj}, "${3:value}", ${4:row}, ${5:column}})'
+  'spreadsheetSetColumnWidth':
+    'prefix': 'spreadsheetSetColumnWidth'
+    'body': 'spreadsheetSetColumnWidth(${1:${2:spreadsheetObj}, ${3:columnNumber}, ${4:width}})'
+  'spreadsheetSetFooter':
+    'prefix': 'spreadsheetSetFooter'
+    'body': 'spreadsheetSetFooter(${1:${2:spreadsheetObj}, "${3:leftFooter}", "${4:centerFooter}", "${5:rightFooter}"})'
+  'spreadsheetSetHeader':
+    'prefix': 'spreadsheetSetHeader'
+    'body': 'spreadsheetSetHeader(${1:${2:spreadsheetObj}, "${3:leftHeader}", "${4:centerHeader}", "${5:rightHeader}"})'
+  'spreadsheetSetRowHeight':
+    'prefix': 'spreadsheetSetRowHeight'
+    'body': 'spreadsheetSetRowHeight(${1:${2:spreadsheetObj}, ${3:rowNumber}, ${4:height}})'
+  'spreadsheetShiftColumns':
+    'prefix': 'spreadsheetShiftColumns'
+    'body': 'spreadsheetShiftColumns(${1:${2:spreadsheetObj}, ${3:start}${4:, [end]}${5:, [start]}})'
+  'spreadsheetShiftRows':
+    'prefix': 'spreadsheetShiftRows'
+    'body': 'spreadsheetShiftRows(${1:${2:spreadsheetObj}, ${3:start}, ${4:end}${5:, [rows]}})'
+  'spreadsheetwrite':
+    'prefix': 'spreadsheetwrite'
+    'body': 'spreadsheetwrite(${1:${2:spreadsheetObj}, "${3:fileName}"${4:, [password]}${5:, [overwrite]}})'
+  'sqr':
+    'prefix': 'sqr'
+    'body': 'sqr(${1:${2:number}})'
+  'stripCR':
+    'prefix': 'stripCR'
+    'body': 'stripCR(${1:"${2:String}"})'
+  'structAppend':
+    'prefix': 'structAppend'
+    'body': 'structAppend(${1:${2:struct1}, ${3:struct2}${4:, [overwriteFlag]}})'
+  'structClear':
+    'prefix': 'structClear'
+    'body': 'structClear(${1:${2:structure}})'
+  'structCopy':
+    'prefix': 'structCopy'
+    'body': 'structCopy(${1:${2:structure}})'
+  'structCount':
+    'prefix': 'structCount'
+    'body': 'structCount(${1:${2:structure}})'
+  'structDelete':
+    'prefix': 'structDelete'
+    'body': 'structDelete(${1:"${2:structure}", "${3:key}"${4:, [indicatenotexisting]}})'
+  'structFind':
+    'prefix': 'structFind'
+    'body': 'structFind(${1:${2:structure}, "${3:key}"})'
+  'structFindKey':
+    'prefix': 'structFindKey'
+    'body': 'structFindKey(${1:${2:top}, "${3:value}", "${4:scope}"})'
+  'structFindValue':
+    'prefix': 'structFindValue'
+    'body': 'structFindValue(${1:${2:top}, "${3:value}"${4:, [scope]}})'
+  'structGet':
+    'prefix': 'structGet'
+    'body': 'structGet(${1:"${2:pathdesired}"})'
+  'structInsert':
+    'prefix': 'structInsert'
+    'body': 'structInsert(${1:${2:structure}, "${3:key}", ${4:value}${5:, [allowoverwrite]}})'
+  'structIsEmpty':
+    'prefix': 'structIsEmpty'
+    'body': 'structIsEmpty(${1:${2:structure}})'
+  'structKeyArray':
+    'prefix': 'structKeyArray'
+    'body': 'structKeyArray(${1:${2:structure}})'
+  'structKeyExists':
+    'prefix': 'structKeyExists'
+    'body': 'structKeyExists(${1:${2:structure}, "${3:key}"})'
+  'structKeyList':
+    'prefix': 'structKeyList'
+    'body': 'structKeyList(${1:${2:structure}${3:, [delimiter]}})'
+  'structNew':
+    'prefix': 'structNew'
+    'body': 'structNew(${1:})'
+  'structSort':
+    'prefix': 'structSort'
+    'body': 'structSort(${1:${2:base}, "${3:sorttype}", "${4:sortorder}", "${5:pathtosubelement}"})'
+  'structUpdate':
+    'prefix': 'structUpdate'
+    'body': 'structUpdate(${1:${2:structure}, "${3:key}", ${4:value}})'
+  'tan':
+    'prefix': 'tan'
+    'body': 'tan(${1:${2:number}})'
+  'threadJoin':
+    'prefix': 'threadJoin'
+    'body': 'threadJoin(${1:${2:Param1}})'
+  'threadTerminate':
+    'prefix': 'threadTerminate'
+    'body': 'threadTerminate(${1:"${2:threadname}"})'
+  'throw':
+    'prefix': 'throw'
+    'body': 'throw(${1:${2:[type]}${3:, [message]}${4:, [detail]}${5:, [errorcode]}${6:, [extendedinfo]}${7:, [object]}})'
+  'timeFormat':
+    'prefix': 'timeFormat'
+    'body': 'timeFormat(${1:${2:time}${3:, [mask]}})'
+  'toBase64':
+    'prefix': 'toBase64'
+    'body': 'toBase64(${1:${2:string_or_object}${3:, [encoding]}})'
+  'toBinary':
+    'prefix': 'toBinary'
+    'body': 'toBinary(${1:${2:base64_or_object}})'
+  'toScript':
+    'prefix': 'toScript'
+    'body': 'toScript(${1:${2:cfvar}, "${3:javascriptvar}"${4:, [outputformat]}${5:, [asformat]}})'
+  'toString':
+    'prefix': 'toString'
+    'body': 'toString(${1:${2:any_value}${3:, [encoding]}})'
+  'trace':
+    'prefix': 'trace'
+    'body': 'trace(${1:${2:[abort]}${3:, [category]}${4:, [inline]}${5:, [text]}${6:, [type]}${7:, [var]}})'
+  'transactionCommit':
+    'prefix': 'transactionCommit'
+    'body': 'transactionCommit(${1:})'
+  'transactionRollback':
+    'prefix': 'transactionRollback'
+    'body': 'transactionRollback(${1:${2:[savepoint]}})'
+  'transactionSetSavepoint':
+    'prefix': 'transactionSetSavepoint'
+    'body': 'transactionSetSavepoint(${1:"${2:savepoint}"})'
+  'trim':
+    'prefix': 'trim'
+    'body': 'trim(${1:"${2:String}"})'
+  'uCase':
+    'prefix': 'uCase'
+    'body': 'uCase(${1:"${2:String}"})'
+  'urlDecode':
+    'prefix': 'urlDecode'
+    'body': 'urlDecode(${1:"${2:urlencodedstring}"${3:, [charset]}})'
+  'urlEncodedFormat':
+    'prefix': 'urlEncodedFormat'
+    'body': 'urlEncodedFormat(${1:"${2:String}"${3:, [charset]}})'
+  'urlSessionFormat':
+    'prefix': 'urlSessionFormat'
+    'body': 'urlSessionFormat(${1:${2:requesturl}})'
+  'val':
+    'prefix': 'val'
+    'body': 'val(${1:"${2:String}"})'
+  'valueList':
+    'prefix': 'valueList'
+    'body': 'valueList(${1:${2:column}${3:, [delimiter]}})'
+  'verifyClient':
+    'prefix': 'verifyClient'
+    'body': 'verifyClient(${1:})'
+  'week':
+    'prefix': 'week'
+    'body': 'week(${1:${2:date}})'
+  'wrap':
+    'prefix': 'wrap'
+    'body': 'wrap(${1:"${2:String}", ${3:limit}${4:, [strip]}})'
+  'writeDump':
+    'prefix': 'writeDump'
+    'body': 'writeDump(${1:${2:var}${3:, [expand]}${4:, [format]}${5:, [hide]}${6:, [keys]}${7:, [label]}${8:, [metainfo]}${9:, [output]}${10:, [show]}${11:, [showUDfs]}${12:, [top]}})'
+  'writeLog':
+    'prefix': 'writeLog'
+    'body': 'writeLog(${1:"${2:text}"${3:, [log]}${4:, [file]}${5:, [type]}${6:, [application]}})'
+  'writeOutput':
+    'prefix': 'writeOutput'
+    'body': 'writeOutput(${1:"${2:String}"})'
+  'xmlChildPos':
+    'prefix': 'xmlChildPos'
+    'body': 'xmlChildPos(${1:${2:elem}, "${3:childname}", ${4:n}})'
+  'xmlElemNew':
+    'prefix': 'xmlElemNew'
+    'body': 'xmlElemNew(${1:${2:xmlobj}${3:, [namespace]}, "${4:childname}"})'
+  'xmlFormat':
+    'prefix': 'xmlFormat'
+    'body': 'xmlFormat(${1:"${2:String}"${3:, [escapeNewSet]}})'
+  'xmlGetNodeType':
+    'prefix': 'xmlGetNodeType'
+    'body': 'xmlGetNodeType(${1:${2:xmlNode}})'
+  'xmlNew':
+    'prefix': 'xmlNew'
+    'body': 'xmlNew(${1:${2:[casesensitive]}})'
+  'xmlParse':
+    'prefix': 'xmlParse'
+    'body': 'xmlParse(${1:"${2:xmlstring}"${3:, [casesensitive]}${4:, [validator]}})'
+  'xmlSearch':
+    'prefix': 'xmlSearch'
+    'body': 'xmlSearch(${1:${2:xmldoc}, "${3:xpathstring}"})'
+  'xmlTransform':
+    'prefix': 'xmlTransform'
+    'body': 'xmlTransform(${1:"${2:xml}", "${3:xsl}"${4:, [parameters]}})'
+  'xmlValidate':
+    'prefix': 'xmlValidate'
+    'body': 'xmlValidate(${1:${2:xmlDoc}${3:, [validator]}})'
+  'year':
+    'prefix': 'year'
+    'body': 'year(${1:${2:date}})'
+  'yesNoFormat':
+    'prefix': 'yesNoFormat'
+    'body': 'yesNoFormat(${1:${2:value}})'
+  'abort':
+    'prefix': 'abort'
+    'body': '<cfabort />$0'
+  'dump':
+    'prefix': 'dump'
+    'body': '<cfdump var="#${TM_SELECTED_TEXT}$1#" />$0'
+  'output':
+    'prefix': 'output'
+    'body': '<cfoutput>${TM_SELECTED_TEXT}$0</cfoutput>'
+  'query':
+    'prefix': 'query'
+    'body': '<cfquery name="${1:qRecords}" datasource="${2:#application.dsn#}">\n\t$0\n</cfquery>'
+  'script':
+    'prefix': 'script'
+    'body': '<cfscript>\n\t$0\n</cfscript>'
